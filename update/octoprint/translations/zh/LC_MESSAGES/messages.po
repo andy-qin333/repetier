@@ -1,0 +1,3188 @@
+# Chinese translations for OctoPrint.
+# Copyright (C) 2016 The OctoPrint Project
+# This file is distributed under the same license as the OctoPrint project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OctoPrint 1.2.13\n"
+"Report-Msgid-Bugs-To: i18n@octoprint.org\n"
+"POT-Creation-Date: 2016-09-21 15:19+0800\n"
+"PO-Revision-Date: 2016-09-21 17:29+0800\n"
+"Last-Translator: \n"
+"Language-Team: zh <LL@li.org>\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.3.4\n"
+"X-Generator: Poedit 1.8.8\n"
+
+#: src/octoprint/plugins/announcements/__init__.py:89
+#: src/octoprint/plugins/announcements/templates/announcements.jinja2:4
+#: src/octoprint/plugins/announcements/templates/announcements_navbar.jinja2:1
+msgid "Announcements"
+msgstr "通知"
+
+#: src/octoprint/plugins/announcements/static/js/announcements.js:50
+msgid "Cannot be toggled"
+msgstr "无法切换"
+
+#: src/octoprint/plugins/announcements/static/js/announcements.js:50
+msgid "Disable Channel"
+msgstr "关闭通道"
+
+#: src/octoprint/plugins/announcements/static/js/announcements.js:50
+msgid "Enable Channel"
+msgstr "启用通道"
+
+#: src/octoprint/plugins/announcements/static/js/announcements.js:249
+msgid "Later"
+msgstr "稍等"
+
+#: src/octoprint/plugins/announcements/static/js/announcements.js:255
+msgid "Mark read"
+msgstr "标记为已读"
+
+#: src/octoprint/plugins/announcements/static/js/announcements.js:261
+msgid "Read..."
+msgstr "读取..."
+
+#: src/octoprint/plugins/announcements/templates/announcements.jinja2:31
+msgid "Mark as last read"
+msgstr "标记为最后读取"
+
+#: src/octoprint/plugins/announcements/templates/announcements.jinja2:43
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:87
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:197
+#: src/octoprint/templates/dialogs/about.jinja2:51
+#: src/octoprint/templates/dialogs/settings/appearance.jinja2:96
+msgid "Close"
+msgstr "关闭"
+
+#: src/octoprint/plugins/announcements/templates/announcements_settings.jinja2:1
+msgid "Configured Channels"
+msgstr "配置的通道"
+
+#: src/octoprint/plugins/announcements/templates/announcements_settings.jinja2:6
+#: src/octoprint/plugins/cura/templates/cura_settings.jinja2:29
+#: src/octoprint/plugins/cura/templates/cura_settings.jinja2:35
+#: src/octoprint/plugins/cura/templates/cura_settings.jinja2:93
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:38
+#: src/octoprint/templates/dialogs/settings/accesscontrol.jinja2:4
+#: src/octoprint/templates/dialogs/settings/logs.jinja2:6
+#: src/octoprint/templates/dialogs/settings/logs.jinja2:12
+#: src/octoprint/templates/dialogs/settings/printerprofiles.jinja2:5
+#: src/octoprint/templates/dialogs/settings/printerprofiles.jinja2:44
+#: src/octoprint/templates/dialogs/settings/terminalfilters.jinja2:3
+#: src/octoprint/templates/tabs/timelapse.jinja2:50
+#: src/octoprint/templates/tabs/timelapse.jinja2:55
+#: src/octoprint/templates/tabs/timelapse.jinja2:86
+msgid "Name"
+msgstr "名称"
+
+#: src/octoprint/plugins/announcements/templates/announcements_settings.jinja2:7
+#: src/octoprint/plugins/cura/templates/cura_settings.jinja2:36
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:39
+msgid "Actions"
+msgstr "动作"
+
+#: src/octoprint/plugins/announcements/templates/announcements_settings.jinja2:34
+msgid "Refresh Announcements"
+msgstr "更新通知"
+
+#: src/octoprint/plugins/cura/templates/cura_settings.jinja2:1
+#: src/octoprint/templates/tabs/control.jinja2:97
+msgid "General"
+msgstr "综述"
+
+#: src/octoprint/plugins/cura/templates/cura_settings.jinja2:3
+msgid ""
+"\n"
+"    Specify the path to the CuraEngine binary. Note that only\n"
+"    <strong>versions up to and including 15.04</strong> are supported.\n"
+"    CuraEngine version 15.06 or newer is <strong>not</strong>\n"
+"    compatible with this plugin.\n"
+msgstr ""
+"\n"
+"指定CuraEngine执行文件的路径位置.\n"
+"注意：\n"
+"目前只有<strong>15.04（包含）以下</strong>的版本被支持.\n"
+"CuraEngine15.06及其更新的版本<strong>不被</strong>本插件所支持.\n"
+
+#: src/octoprint/plugins/cura/templates/cura_settings.jinja2:12
+msgid "Path to CuraEngine"
+msgstr "CuraEngine 配置路径"
+
+#: src/octoprint/plugins/cura/templates/cura_settings.jinja2:20
+msgid "Log the output of CuraEngine to <code>plugin_cura_engine.log</code>"
+msgstr "CuraEngine日志输出到<code>plugin_cura_engine.log</code>"
+
+#: src/octoprint/plugins/cura/templates/cura_settings.jinja2:26
+msgid "Profiles"
+msgstr "设置"
+
+#: src/octoprint/plugins/cura/templates/cura_settings.jinja2:29
+#: src/octoprint/templates/dialogs/settings/logs.jinja2:6
+#: src/octoprint/templates/tabs/timelapse.jinja2:50
+msgid "Sort by"
+msgstr "排序方式"
+
+#: src/octoprint/plugins/cura/templates/cura_settings.jinja2:29
+#: src/octoprint/plugins/cura/templates/cura_settings.jinja2:34
+#: src/octoprint/plugins/cura/templates/cura_settings.jinja2:87
+#: src/octoprint/templates/dialogs/settings/printerprofiles.jinja2:51
+msgid "Identifier"
+msgstr "标识"
+
+#: src/octoprint/plugins/cura/templates/cura_settings.jinja2:29
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:105
+#: src/octoprint/templates/dialogs/settings/logs.jinja2:6
+#: src/octoprint/templates/sidebar/files_header.jinja2:6
+#: src/octoprint/templates/tabs/timelapse.jinja2:50
+msgid "ascending"
+msgstr "顺序"
+
+#: src/octoprint/plugins/cura/templates/cura_settings.jinja2:44
+msgid "Make default"
+msgstr "设为默认"
+
+#: src/octoprint/plugins/cura/templates/cura_settings.jinja2:44
+#: src/octoprint/templates/dialogs/settings/printerprofiles.jinja2:15
+msgid "Delete Profile"
+msgstr "删除配置"
+
+#: src/octoprint/plugins/cura/templates/cura_settings.jinja2:61
+msgid "Import Profile..."
+msgstr "导入配置"
+
+#: src/octoprint/plugins/cura/templates/cura_settings.jinja2:64
+#, python-format
+msgid ""
+"For more information on configuration and usage please <a href="
+"\"%(plugin_cura_homepage)s\" target=\"_blank\">see the Plugin's homepage</a>."
+msgstr ""
+"有关配置和使用的详细信息，请<a href=\"%(plugin_cura_homepage)s\" target="
+"\"_blank\">参阅该插件的网页</a> 。"
+
+#: src/octoprint/plugins/cura/templates/cura_settings.jinja2:70
+msgid "Import Existing Cura Profile"
+msgstr "导入已有的Cura配置文件"
+
+#: src/octoprint/plugins/cura/templates/cura_settings.jinja2:75
+msgid "Profile ini file"
+msgstr "配置信息文件"
+
+#: src/octoprint/plugins/cura/templates/cura_settings.jinja2:79
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:171
+#: src/octoprint/templates/dialogs/settings/appearance.jinja2:83
+msgid "Browse..."
+msgstr "浏览..."
+
+#: src/octoprint/plugins/cura/templates/cura_settings.jinja2:99
+msgid "Description"
+msgstr "描述"
+
+#: src/octoprint/plugins/cura/templates/cura_settings.jinja2:107
+msgid "Overwrite existing file"
+msgstr "覆盖已有的文件"
+
+#: src/octoprint/plugins/cura/templates/cura_settings.jinja2:113
+msgid ""
+"\n"
+"            You can import your existing profile <code>.ini</code> files "
+"from Cura (version up to and\n"
+"            including 15.04) here. Please be aware that neither the <code>."
+"json</code> profile format\n"
+"            from Cura versions starting with 15.06 is supported, nor are the "
+"custom Cura profile formats\n"
+"            that third party tools like e.g. Repetier create.\n"
+"        "
+msgstr ""
+"\n"
+"请从Cura(低于及等于15.04版本)中导入已有配置文件 <code>.ini</code>.\n"
+"请特別注意如果您的配置文件格式为 <code>.json</code>,那将是从15.06\n"
+"及其之后的版本所使用,目前并不支持,同時也不要使用第三方套件,例如：Repetier生成"
+"的配置文件."
+
+#: src/octoprint/plugins/cura/templates/cura_settings.jinja2:121
+#: src/octoprint/templates/dialogs/settings/accesscontrol.jinja2:80
+#: src/octoprint/templates/dialogs/settings/accesscontrol.jinja2:109
+#: src/octoprint/templates/dialogs/settings/accesscontrol.jinja2:151
+#: src/octoprint/templates/dialogs/settings/printerprofiles.jinja2:200
+#: src/octoprint/templates/dialogs/usersettings.jinja2:46
+msgid "Abort"
+msgstr "放弃"
+
+#: src/octoprint/plugins/cura/templates/cura_settings.jinja2:122
+#: src/octoprint/templates/dialogs/settings/accesscontrol.jinja2:81
+#: src/octoprint/templates/dialogs/settings/accesscontrol.jinja2:110
+#: src/octoprint/templates/dialogs/settings/accesscontrol.jinja2:152
+#: src/octoprint/templates/dialogs/settings/network.jinja2:38
+#: src/octoprint/templates/dialogs/settings/network.jinja2:65
+#: src/octoprint/templates/dialogs/settings/printerprofiles.jinja2:201
+#: src/octoprint/templates/dialogs/usersettings.jinja2:47
+msgid "Confirm"
+msgstr "确认"
+
+#: src/octoprint/plugins/pluginmanager/__init__.py:116
+msgid "Plugin Manager"
+msgstr "插件管理器"
+
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:146
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:307
+msgid "Installing plugin..."
+msgstr "正在安装插件..."
+
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:146
+msgid "Installing plugin from uploaded archive..."
+msgstr "从已上传的档案安装插件"
+
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:161
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:255
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:332
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:362
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:628
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:658
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:675
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:692
+msgid "Something went wrong"
+msgstr "发生错误"
+
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:162
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:256
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:333
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:363
+msgid "Please consult octoprint.log for details"
+msgstr "详情请查询octoprint.log "
+
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:309
+#, python-format
+msgid "Installing plugin \"%(name)s\" from %(url)s..."
+msgstr "从 %(url)s 安装插件 “%(name)s”"
+
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:311
+#, python-format
+msgid "Installing plugin from %(url)s..."
+msgstr "从%(url)s安装插件"
+
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:314
+msgid "Reinstalling plugin..."
+msgstr "重新安装插件.."
+
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:315
+#, python-format
+msgid "Reinstalling plugin \"%(name)s\" from %(url)s..."
+msgstr "从%(url)s重新安装插件 \"%(name)s\""
+
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:353
+msgid "Uninstalling plugin..."
+msgstr "正在卸载插件..."
+
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:353
+#, python-format
+msgid "Uninstalling plugin \"%(name)s\""
+msgstr "正在卸载插件 \"%(name)s\""
+
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:440
+msgid "Reinstall"
+msgstr "重新安装"
+
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:440
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:160
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:176
+msgid "Install"
+msgstr "安装"
+
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:440
+msgid "Incompatible"
+msgstr "不兼容"
+
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:458
+#: src/octoprint/templates/overlays/reloadui.jinja2:9
+msgid "Reload now"
+msgstr "重新加载"
+
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:527
+msgid "Done!"
+msgstr "完成！"
+
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:547
+msgid "Enable Plugin"
+msgstr "启用插件"
+
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:547
+msgid "Disable Plugin"
+msgstr "禁用插件"
+
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:612
+msgid "Plugin installed"
+msgstr "插件已安装"
+
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:613
+msgid ""
+"A plugin was installed successfully, however it was impossible to detect "
+"which one. Please Restart OctoPrint to make sure everything will be "
+"registered properly"
+msgstr ""
+"插件安装成功，然而不可能检测到是哪一个。请重启OctoPrint确保一切都会正常注册"
+
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:617
+#, python-format
+msgid "Plugin \"%(name)s\" reinstalled"
+msgstr "重新安装\"%(name)s\" 插件"
+
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:618
+msgid "The plugin was reinstalled successfully"
+msgstr "插件重新安装成功"
+
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:619
+msgid ""
+"The plugin was reinstalled successfully, however a restart of OctoPrint is "
+"needed for that to take effect."
+msgstr "插件安装成功，重启后生效。"
+
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:620
+msgid ""
+"The plugin was reinstalled successfully, however a reload of the page is "
+"needed for that to take effect."
+msgstr "插件已成功安装，重新加载页面生效。"
+
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:622
+#, python-format
+msgid "Plugin \"%(name)s\" installed"
+msgstr "插件 \"%(name)s\"已安装"
+
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:623
+msgid "The plugin was installed successfully"
+msgstr "插件安装成功"
+
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:624
+msgid ""
+"The plugin was installed successfully, however a restart of OctoPrint is "
+"needed for that to take effect."
+msgstr "插件已成功安装，但是需要OctoPrint重新启动才能生效。"
+
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:625
+msgid ""
+"The plugin was installed successfully, however a reload of the page is "
+"needed for that to take effect."
+msgstr "插件已成功安装，但是需要重新加载页面才能生效。"
+
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:636
+#, python-format
+msgid "Reinstalling the plugin from URL \"%(url)s\" failed: %(reason)s"
+msgstr "重新从地址\"%(url)s\" 安装插件失败:%(reason)s"
+
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:638
+#, python-format
+msgid "Installing the plugin from URL \"%(url)s\" failed: %(reason)s"
+msgstr "从地址\"%(url)s\" 安装插件失败:%(reason)s"
+
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:642
+#, python-format
+msgid ""
+"Reinstalling the plugin from URL \"%(url)s\" failed, please see the log for "
+"details."
+msgstr "重新从地址\"%(url)s\" 安装插件失败,请查看日志获得详细信息"
+
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:644
+#, python-format
+msgid ""
+"Installing the plugin from URL \"%(url)s\" failed, please see the log for "
+"details."
+msgstr "从URL \"%(url)s\"安装插件失败，详情请查看日志"
+
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:653
+#, python-format
+msgid "Plugin \"%(name)s\" uninstalled"
+msgstr "插件 \"%(name)s\" 未安装"
+
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:654
+msgid "The plugin was uninstalled successfully"
+msgstr "该插件被成功卸载"
+
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:655
+msgid ""
+"The plugin was uninstalled successfully, however a restart of OctoPrint is "
+"needed for that to take effect."
+msgstr "插件已成功卸载，但是需要OctoPrint重新启动才能生效。"
+
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:656
+msgid ""
+"The plugin was uninstalled successfully, however a reload of the page is "
+"needed for that to take effect."
+msgstr "插件已成功卸载，但是需要重新加载页面才能生效。"
+
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:660
+#, python-format
+msgid "Uninstalling the plugin failed: %(reason)s"
+msgstr "卸载插件失败:%(reason)s"
+
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:662
+msgid "Uninstalling the plugin failed, please see the log for details."
+msgstr "插件卸载失败，请查看日志的详细信息。"
+
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:670
+#, python-format
+msgid "Plugin \"%(name)s\" enabled"
+msgstr "插件\"%(name)s\"生效"
+
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:671
+msgid "The plugin was enabled successfully."
+msgstr "该插件已成功启用。"
+
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:672
+msgid ""
+"The plugin was enabled successfully, however a restart of OctoPrint is "
+"needed for that to take effect."
+msgstr "该插件被成功启用，但是需要OctoPrint重新启动才能生效。"
+
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:673
+msgid ""
+"The plugin was enabled successfully, however a reload of the page is needed "
+"for that to take effect."
+msgstr "插件已成功启用，但是需要重新加载页面才能生效。"
+
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:677
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:694
+#, python-format
+msgid "Toggling the plugin failed: %(reason)s"
+msgstr "切换插件失败:%(reason)s"
+
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:679
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:696
+msgid "Toggling the plugin failed, please see the log for details."
+msgstr "切换插件失败，请查看日志的详细信息。"
+
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:687
+#, python-format
+msgid "Plugin \"%(name)s\" disabled"
+msgstr "插件 \"%(name)s\" 被禁用"
+
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:688
+msgid "The plugin was disabled successfully."
+msgstr "该插件已成功禁用。"
+
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:689
+msgid ""
+"The plugin was disabled successfully, however a restart of OctoPrint is "
+"needed for that to take effect."
+msgstr "该插件被成功禁用，但OctoPrint重新启动是需要的才能生效。"
+
+#: src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js:690
+msgid ""
+"The plugin was disabled successfully, however a reload of the page is needed "
+"for that to take effect."
+msgstr "该插件被成功禁用，但在页面重载需要为生效。"
+
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:3
+msgid ""
+"Take note that all plugin management functionality is disabled while your "
+"printer is printing."
+msgstr "需注意，当您的打印机打印的所有插件管理功能被禁用。"
+
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:8
+msgid ""
+"\n"
+"    The <code>pip</code> command could not be found.\n"
+"    Please configure it manually. No installation and uninstallation of "
+"plugin\n"
+"    packages is possible while <code>pip</code> is unavailable.\n"
+msgstr ""
+"\n"
+"\t该<code>pip</code>命令无法找到。请手动配置，否则将无法安装或卸载插件。\n"
+
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:16
+msgid ""
+"\n"
+"    The <code>pip</code> command is configured to use <code>sudo</code>. "
+"This\n"
+"    is <strong>not</strong> recommended due to security reasons. It is "
+"<strong>strongly</strong>\n"
+"    suggested you install OctoPrint under a\n"
+"    <a href=\"https://github.com/foosel/OctoPrint/#installation\">user-owned "
+"virtual environment</a>\n"
+"    so that the use of <code>sudo</code> is not needed for plugin "
+"management.\n"
+msgstr ""
+"\n"
+"基于安全理由，我们不建议您使用 <code>sudo</code>权限使用 <code>pip</code>\n"
+"指令\n"
+"因此我们<Strong>强烈</Strong>建议您使用具备<a href=\"https://github.com/"
+"foosel/OctoPrint/#installation\">个人权限的虛拟环境</a> 来安装您的"
+"OctoPrint.\n"
+"如此一来,您将可以不需要使用<code>sudo</code>权限來进行套件管理\n"
+
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:30
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:204
+#: src/octoprint/plugins/softwareupdate/templates/softwareupdate_settings.jinja2:20
+#: src/octoprint/plugins/softwareupdate/templates/softwareupdate_settings.jinja2:73
+msgid "Plugin Configuration"
+msgstr "插件配置"
+
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:33
+msgid "Installed Plugins"
+msgstr "已安装插件"
+
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:45
+msgid "Bundled"
+msgstr "捆绑"
+
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:48
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:129
+#: src/octoprint/templates/index.jinja2:118
+msgid "Homepage"
+msgstr "主页"
+
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:55
+msgid "Uninstall Plugin"
+msgstr "卸载插件"
+
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:72
+msgid "Get More..."
+msgstr "获得更多..."
+
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:94
+msgid "Install new Plugins..."
+msgstr "安装新插件..."
+
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:101
+#, python-format
+msgid ""
+"... from the <a href=\"%(url)s\" target=\"_blank\">Plugin Repository</a>"
+msgstr "... 从 <a href=\"%(url)s\" target=\"_blank\">插件库</a>"
+
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:105
+msgid "Sort by title"
+msgstr "按标题排序"
+
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:106
+msgid "Sort by publication date"
+msgstr "按发布时间排序"
+
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:106
+#: src/octoprint/templates/dialogs/settings/logs.jinja2:6
+#: src/octoprint/templates/sidebar/files_header.jinja2:7
+#: src/octoprint/templates/sidebar/files_header.jinja2:8
+#: src/octoprint/templates/tabs/timelapse.jinja2:50
+msgid "descending"
+msgstr "倒序"
+
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:108
+msgid "Only show uninstalled plugins"
+msgstr "只显示卸载插件"
+
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:109
+msgid "Only show compatible plugins"
+msgstr "只显示兼容的插件"
+
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:111
+msgid "Refresh list from repository"
+msgstr "刷新存储库列表"
+
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:117
+#: src/octoprint/templates/sidebar/files.jinja2:2
+msgid "Search..."
+msgstr "搜索..."
+
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:128
+msgid "Details"
+msgstr "详细信息"
+
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:145
+msgid "Sadly the repository is currently not available"
+msgstr "很遗憾，库目前无法使用"
+
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:148
+msgid "Is your OctoPrint installation connected to the internet?"
+msgstr "是您OctoPrint安装连接到互联网？"
+
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:153
+msgid "... from URL"
+msgstr "...从网址"
+
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:158
+msgid "Enter URL..."
+msgstr "输入网址..."
+
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:162
+msgid "This does not look like a valid \"http://\" or \"https://\" URL."
+msgstr "这看起来并不像一个有效的“http：//”或“https：//开头”URL。"
+
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:165
+msgid "... from an uploaded archive"
+msgstr "从......上传档案"
+
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:178
+msgid ""
+"This does not look like a valid plugin archive. Valid plugin archives should "
+"be either zip files or tarballs and have the extension \".zip\", \".tar.gz"
+"\", \".tgz\" or \".tar\""
+msgstr ""
+"这看起来并不像一个有效的插件存档。有效的插件档案应该是zip文件或压缩包，并具有"
+"扩展名“.ZIP”的“.tar.gz”，“.tgz的”或“的.tar”"
+
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:182
+#: src/octoprint/plugins/softwareupdate/templates/softwareupdate_settings.jinja2:63
+#: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:96
+#: src/octoprint/templates/tabs/terminal.jinja2:27
+msgid "Advanced options"
+msgstr "高级选项"
+
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:188
+msgid ""
+"Use <code>--process-dependency-links</code> with <code>pip install</code>"
+msgstr ""
+"请在<code>pip install</code>中使用 <code>--process-dependency-links</code> 参"
+"数 "
+
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:208
+msgid ""
+"pip command to use for managing plugins. You might have to configure this if "
+"auto detection fails."
+msgstr "PIP 命令用于管理插件。若自动检测失败，您可能需要对此进行配置。"
+
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:209
+msgid "pip command"
+msgstr "PIP 命令"
+
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:211
+msgid "Autodetect"
+msgstr "自动检测"
+
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:212
+msgid ""
+"<strong>Only</strong> set this if OctoPrint cannot autodetect the path to "
+"<code>pip</code> to use for managing plugins."
+msgstr ""
+"<strong>只</strong>当Octoprint沒办法自动侦测<code>pip</code>(安装包管理器)用"
+"于安装包管理时，才需要设定"
+
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:215
+msgid ""
+"Additional arguments for pip command. You should normally not have to change "
+"this."
+msgstr "通常您并不需要去修改那些pip(安装包管理器)指令中的额外参数。"
+
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:216
+msgid "Additional pip arguments"
+msgstr "附加 PIP 命令参数"
+
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:221
+msgid ""
+"URL of the Plugin Repository to use. You should normally not have to change "
+"this."
+msgstr "您通常是不需要修改那些使用中的插件网络位置。"
+
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:222
+msgid "Repository URL"
+msgstr "库 URL"
+
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:227
+msgid ""
+"How long to cache repository data, in minutes. You should normally not have "
+"to change this."
+msgstr "该花几分钟在缓存数据上，通常您是不需要去修改这项目。"
+
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:228
+msgid "Repository cache TTL"
+msgstr "库缓存 TTL"
+
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:239
+#: src/octoprint/plugins/softwareupdate/templates/softwareupdate.jinja2:26
+#: src/octoprint/plugins/softwareupdate/templates/softwareupdate_settings.jinja2:101
+#: src/octoprint/templates/dialogs/confirmation.jinja2:11
+#: src/octoprint/templates/dialogs/settings.jinja2:52
+#: src/octoprint/templates/dialogs/settings/network.jinja2:37
+#: src/octoprint/templates/dialogs/settings/network.jinja2:64
+#: src/octoprint/templates/dialogs/slicing.jinja2:50
+#: src/octoprint/templates/sidebar/state.jinja2:19
+msgid "Cancel"
+msgstr "取消"
+
+#: src/octoprint/plugins/pluginmanager/templates/pluginmanager_settings.jinja2:240
+#: src/octoprint/plugins/softwareupdate/templates/softwareupdate_settings.jinja2:102
+#: src/octoprint/templates/dialogs/settings.jinja2:53
+msgid "Save"
+msgstr "保存"
+
+#: src/octoprint/plugins/softwareupdate/__init__.py:394
+msgid "Software Update"
+msgstr "软件更新"
+
+#: src/octoprint/plugins/softwareupdate/__init__.py:700
+#: src/octoprint/server/views.py:166
+#: src/octoprint/templates/dialogs/about/about.jinja2:1
+msgid "OctoPrint"
+msgstr "OctoPrint"
+
+#: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:29
+msgid "Release"
+msgstr "发布"
+
+#: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:30
+msgid "Commit"
+msgstr "提交"
+
+#: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:132
+#, python-format
+msgid "%(name)s: %(version)s"
+msgstr "%(name)s: %(version)s"
+
+#: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:135
+msgid "unknown"
+msgstr "未知"
+
+#: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:165
+msgid "There are updates available for the following components:"
+msgstr "以下組件可以更新:"
+
+#: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:173
+#: src/octoprint/plugins/softwareupdate/templates/softwareupdate.jinja2:14
+msgid "Release Notes"
+msgstr "发布说明"
+
+#: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:179
+msgid ""
+"Those components marked with <i class=\"icon-ok\"></i> can be updated "
+"directly."
+msgstr "标有<i class=\"icon-ok\">这些组件</i>的可以直接更新。"
+
+#: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:184
+msgid "Update Available"
+msgstr "更新可用"
+
+#: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:195
+msgid "Ignore"
+msgstr "忽略"
+
+#: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:199
+msgid ""
+"You can make this message display again via \"Settings\" > \"Software Update"
+"\" > \"Check for update now\""
+msgstr "你可以通过\"设置\" > \"更新软件\" > \"检查更新\"使信息重新显示"
+
+#: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:203
+msgid "Update now"
+msgstr "立即更新"
+
+#: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:220
+msgid "Everything is up-to-date"
+msgstr "所有都是新的"
+
+#: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:289
+msgid "Updating..."
+msgstr "更新中..."
+
+#: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:290
+msgid "Now updating, please wait."
+msgstr "更新中，请等待。"
+
+#: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:316
+msgid "Update not started!"
+msgstr "更新没有开始！"
+
+#: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:317
+msgid ""
+"The update could not be started. Is it already active? Please consult the "
+"log for details."
+msgstr "更新不能启动。是不是已经活跃？请参考日志获取详细信息。"
+
+#: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:337
+msgid "Can't update while printing"
+msgstr "不能在打印时更新"
+
+#: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:338
+msgid ""
+"A print job is currently in progress. Updating will be prevented until it is "
+"done."
+msgstr "打印作业正在进行中。更新将被阻止，直到它完成。"
+
+#: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:391
+#, python-format
+msgid "Now updating %(name)s to %(version)s"
+msgstr "现在更新 %(name)s 至 %(version)s"
+
+#: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:399
+msgid "Update successful, restarting!"
+msgstr "更新成功后，重新启动！"
+
+#: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:400
+msgid "The update finished successfully and the server will now be restarted."
+msgstr "更新成功完成，服务器现在将重新启动。"
+
+#: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:411
+#: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:453
+msgid "Restart failed"
+msgstr "重新启动失败"
+
+#: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:412
+#: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:454
+msgid ""
+"The server apparently did not restart by itself, you'll have to do it "
+"manually. Please consult the log file on what went wrong."
+msgstr "服务器显然没有重新启动，您必须手动做重新启动。请查阅日志文件出错。"
+
+#: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:428
+msgid "The update finished successfully, please restart OctoPrint now."
+msgstr "升级成功完成，请立即重新启动OctoPrint。"
+
+#: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:430
+msgid "The update finished successfully, please reboot the server now."
+msgstr "更新成功完成后，请立即重新启动服务器。"
+
+#: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:434
+msgid "Update successful, restart required!"
+msgstr "更新成功，需要重新启动！"
+
+#: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:447
+msgid ""
+"Restarting OctoPrint failed, please restart it manually. You might also want "
+"to consult the log file on what went wrong here."
+msgstr ""
+"重新启动OctoPrint失败，请手动重新启动。您可能还需要参考日志文件什么地方出了"
+"错。"
+
+#: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:449
+msgid ""
+"Rebooting the server failed, please reboot it manually. You might also want "
+"to consult the log file on what went wrong here."
+msgstr ""
+"重新启动服务器失败，请手动重新启动它。您可能还需要参考日志文件什么地方出了"
+"错。"
+
+#: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:467
+msgid "Update successful!"
+msgstr "更新成功！"
+
+#: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:468
+msgid "The update finished successfully."
+msgstr "更新成功完成。"
+
+#: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:480
+msgid "Update failed!"
+msgstr "更新失败！"
+
+#: src/octoprint/plugins/softwareupdate/static/js/softwareupdate.js:481
+msgid ""
+"The update did not finish successfully. Please consult the log for details."
+msgstr "更新没有完成，请查看日志。"
+
+#: src/octoprint/plugins/softwareupdate/templates/softwareupdate.jinja2:4
+msgid "Are you sure you want to update now?"
+msgstr "你确定要立刻更新吗？"
+
+#: src/octoprint/plugins/softwareupdate/templates/softwareupdate.jinja2:8
+msgid "This will update the following components and restart the server:"
+msgstr "这将会更新一下组件并重启服务器："
+
+#: src/octoprint/plugins/softwareupdate/templates/softwareupdate.jinja2:19
+msgid ""
+"Be sure to read through any linked release notes, especially those for "
+"OctoPrint since they might contain important information you need to know "
+"<strong>before</strong> upgrading."
+msgstr ""
+
+#: src/octoprint/plugins/softwareupdate/templates/softwareupdate.jinja2:22
+#: src/octoprint/templates/dialogs/confirmation.jinja2:8
+msgid "Are you sure you want to proceed?"
+msgstr "你确定要继续吗？"
+
+#: src/octoprint/plugins/softwareupdate/templates/softwareupdate.jinja2:27
+#: src/octoprint/templates/dialogs/confirmation.jinja2:12
+msgid "Proceed"
+msgstr "继续"
+
+#: src/octoprint/plugins/softwareupdate/templates/softwareupdate_settings.jinja2:1
+msgid ""
+"\n"
+"    Please configure the <strong>checkout folder</strong> of OctoPrint, "
+"otherwise\n"
+"    this plugin won't be able to update it. Click on the <i class=\"icon-"
+"wrench\"></i> button\n"
+"    to do this. Also refer to the <a href=\"https://github.com/foosel/"
+"OctoPrint/wiki/Plugin:-Software-Update\" target=\"_blank\">Documentation</"
+"a>.\n"
+msgstr ""
+
+#: src/octoprint/plugins/softwareupdate/templates/softwareupdate_settings.jinja2:6
+msgid ""
+"\n"
+"    <p>\n"
+"        <strong>You are running a non-release version of OctoPrint but are "
+"tracking OctoPrint\n"
+"        releases.</strong>\n"
+"    </p><p>\n"
+"        You probably want OctoPrint to track the matching development "
+"version instead.\n"
+"        If you have a local OctoPrint checkout folder switched to another "
+"branch,\n"
+"        <strong>simply switching over to \"Commit\" tracking</strong> will "
+"already\n"
+"        take care of that. Otherwise please take a look at the\n"
+"        <a href=\"https://github.com/foosel/OctoPrint/wiki/Plugin:-Software-"
+"Update\" target=\"_blank\">Documentation</a>.\n"
+"    </p>\n"
+msgstr ""
+
+#: src/octoprint/plugins/softwareupdate/templates/softwareupdate_settings.jinja2:23
+msgid "Current versions"
+msgstr "当前版本"
+
+#: src/octoprint/plugins/softwareupdate/templates/softwareupdate_settings.jinja2:29
+msgid "Update available"
+msgstr "更新可用"
+
+#: src/octoprint/plugins/softwareupdate/templates/softwareupdate_settings.jinja2:32
+msgid "Update not possible, configuration ok?"
+msgstr "更新不可用，检查配置是否正确？"
+
+#: src/octoprint/plugins/softwareupdate/templates/softwareupdate_settings.jinja2:34
+msgid "Installed:"
+msgstr "已安装："
+
+#: src/octoprint/plugins/softwareupdate/templates/softwareupdate_settings.jinja2:35
+msgid "Available:"
+msgstr "可用的："
+
+#: src/octoprint/plugins/softwareupdate/templates/softwareupdate_settings.jinja2:36
+msgid "Release Notes:"
+msgstr "发布记录："
+
+#: src/octoprint/plugins/softwareupdate/templates/softwareupdate_settings.jinja2:60
+msgid "Check for update now"
+msgstr "现在检查更新"
+
+#: src/octoprint/plugins/softwareupdate/templates/softwareupdate_settings.jinja2:65
+msgid "Force check for update (overrides cache used for update checks)"
+msgstr "强制检查更新(覆盖缓存用于更新检查)"
+
+#: src/octoprint/plugins/softwareupdate/templates/softwareupdate_settings.jinja2:66
+msgid "Force update now (even if no new versions are available)"
+msgstr "立刻强制更新（即使没有新版本可用）"
+
+#: src/octoprint/plugins/softwareupdate/templates/softwareupdate_settings.jinja2:78
+msgid "OctoPrint checkout folder"
+msgstr "OctoPrint检验文件夹"
+
+#: src/octoprint/plugins/softwareupdate/templates/softwareupdate_settings.jinja2:84
+msgid "OctoPrint version tracking"
+msgstr "OctoPrint版本跟踪"
+
+#: src/octoprint/plugins/softwareupdate/templates/softwareupdate_settings.jinja2:90
+msgid "Version cache TTL"
+msgstr "版本缓存TTL"
+
+#: src/octoprint/server/views.py:74
+msgid "Plugins"
+msgstr "插件"
+
+#: src/octoprint/server/views.py:132
+msgid "Connection"
+msgstr "连接"
+
+#: src/octoprint/server/views.py:133
+msgid "State"
+msgstr "状态"
+
+#: src/octoprint/server/views.py:134
+msgid "Files"
+msgstr "文件"
+
+#: src/octoprint/server/views.py:140
+msgid "Temperature"
+msgstr "温度"
+
+#: src/octoprint/server/views.py:141
+msgid "Control"
+msgstr "控制"
+
+#: src/octoprint/server/views.py:142
+msgid "Terminal"
+msgstr "终端"
+
+#: src/octoprint/server/views.py:145
+msgid "GCode Viewer"
+msgstr "GCode预览"
+
+#: src/octoprint/server/views.py:147
+#: src/octoprint/templates/sidebar/state.jinja2:3
+msgid "Timelapse"
+msgstr "间隔拍摄"
+
+#: src/octoprint/server/views.py:152
+msgid "Printer"
+msgstr "打印机"
+
+#: src/octoprint/server/views.py:154
+msgid "Serial Connection"
+msgstr "串口连接"
+
+#: src/octoprint/server/views.py:155
+#: src/octoprint/templates/dialogs/settings/printerprofiles.jinja2:1
+msgid "Printer Profiles"
+msgstr "打印机配置"
+
+#: src/octoprint/server/views.py:156
+msgid "Temperatures"
+msgstr "温度"
+
+#: src/octoprint/server/views.py:157
+msgid "Terminal Filters"
+msgstr "终端过滤器"
+
+#: src/octoprint/server/views.py:158
+msgid "GCODE Scripts"
+msgstr "GCODE脚本"
+
+#: src/octoprint/server/views.py:160 src/octoprint/server/views.py:162
+msgid "Features"
+msgstr "功能"
+
+#: src/octoprint/server/views.py:163
+msgid "Webcam"
+msgstr "网络摄像头"
+
+#: src/octoprint/server/views.py:164
+msgid "API"
+msgstr "应用程序接口"
+
+#: src/octoprint/server/views.py:168
+#: src/octoprint/templates/dialogs/settings/folders.jinja2:2
+msgid "Folders"
+msgstr "文件夹"
+
+#: src/octoprint/server/views.py:169
+msgid "Appearance"
+msgstr "外观"
+
+#: src/octoprint/server/views.py:170
+#: src/octoprint/templates/dialogs/settings/logs.jinja2:2
+msgid "Logs"
+msgstr "日志"
+
+#: src/octoprint/server/views.py:171
+msgid "Server"
+msgstr "服务器"
+
+#: src/octoprint/server/views.py:172
+#: src/octoprint/templates/dialogs/usersettings/interface.jinja2:16
+msgid "Network"
+msgstr "网络"
+
+#: src/octoprint/server/views.py:175
+msgid "Access Control"
+msgstr "访问控制"
+
+#: src/octoprint/server/views.py:181
+msgid "Access"
+msgstr "访问"
+
+#: src/octoprint/server/views.py:182
+msgid "Interface"
+msgstr "接口"
+
+#: src/octoprint/static/js/app/dataupdater.js:96
+#: src/octoprint/static/js/app/dataupdater.js:131
+#: src/octoprint/static/js/app/helpers.js:451
+#: src/octoprint/templates/overlays/offline.jinja2:6
+msgid "Server is offline"
+msgstr "服务脱机"
+
+#: src/octoprint/static/js/app/dataupdater.js:97
+msgid ""
+"The server appears to be offline, at least I'm not getting any response from "
+"it. I'll try to reconnect automatically <strong>over the next couple of "
+"minutes</strong>, however you are welcome to try a manual reconnect anytime "
+"using the button below."
+msgstr ""
+"服务器显示为脱机状态，至少我没有收到来自任何责任。我会尝试重新连接自动"
+"<strong>在接下来的几分钟</strong>的，但是欢迎你使用下面的按钮尝试手动重新连接"
+"随时随地。"
+
+#: src/octoprint/static/js/app/dataupdater.js:132
+msgid ""
+"The server appears to be offline, at least I'm not getting any response from "
+"it. I <strong>could not reconnect automatically</strong>, but you may try a "
+"manual reconnect using the button below."
+msgstr ""
+"服务器显示为脱机状态，至少我没有收到来自任何责任。 <strong>无法自动重新连接</"
+"strong>，但您可以使用下面的按钮尝试手动重新连接。"
+
+#: src/octoprint/static/js/app/dataupdater.js:217
+#: src/octoprint/static/js/app/dataupdater.js:237
+#, python-format
+msgid "Slicing ... (%(percentage)d%%)"
+msgstr "正在切片 ...(%(percentage)d%%)"
+
+#: src/octoprint/static/js/app/dataupdater.js:239
+msgid "Slicing ..."
+msgstr "切片中..."
+
+#: src/octoprint/static/js/app/dataupdater.js:245
+msgid "Slicing done"
+msgstr "切片完成"
+
+#: src/octoprint/static/js/app/dataupdater.js:245
+#, python-format
+msgid "Sliced %(stl)s to %(gcode)s, took %(time).2f seconds"
+msgstr "由 %(stl)s 切片至 %(gcode)s 用了 %(time).2f 秒"
+
+#: src/octoprint/static/js/app/dataupdater.js:255
+#, python-format
+msgid "Could not slice %(stl)s to %(gcode)s: %(reason)s"
+msgstr "不能由 %(stl)s 切片成 %(gcode)s : %(reason)s"
+
+#: src/octoprint/static/js/app/dataupdater.js:256
+msgid "Slicing failed"
+msgstr "切片失败"
+
+#: src/octoprint/static/js/app/dataupdater.js:260
+msgid "Streaming ..."
+msgstr "流式传输中..."
+
+#: src/octoprint/static/js/app/dataupdater.js:266
+msgid "Streaming done"
+msgstr "流式传输完成"
+
+#: src/octoprint/static/js/app/dataupdater.js:267
+#, python-format
+msgid "Streamed %(local)s to %(remote)s on SD, took %(time).2f seconds"
+msgstr "传送 %(local)s 至 SD卡上的 %(remote)s, 用了 %(time).2f 秒"
+
+#: src/octoprint/static/js/app/dataupdater.js:273
+#: src/octoprint/static/js/app/dataupdater.js:281
+msgid "Unhandled communication error"
+msgstr "未处理的通信错误"
+
+#: src/octoprint/static/js/app/dataupdater.js:274
+#, python-format
+msgid ""
+"There was an unhandled error while talking to the printer. Due to that the "
+"ongoing print job was cancelled. Error: %(firmwareError)s"
+msgstr ""
+"当与打印机通讯时，有一个未处理的错误。由于正在进行的打印作业被取消。错误: "
+"%(firmwareError)s"
+
+#: src/octoprint/static/js/app/dataupdater.js:282
+#, python-format
+msgid ""
+"The was an unhandled error while talking to the printer. Due to that "
+"OctoPrint disconnected. Error: %(error)s"
+msgstr ""
+"当与打印机通讯时，有一个未处理的错误。由于OctoPrint断开连接。错误: %(error)s"
+
+#: src/octoprint/static/js/app/helpers.js:372
+#, python-format
+msgid "%(hour)02d:%(minute)02d:%(second)02d"
+msgstr "%(hour)02d:%(minute)02d:%(second)02d"
+
+#: src/octoprint/static/js/app/helpers.js:392
+msgid "YYYY-MM-DD HH:mm"
+msgstr "YYYY-MM-DD HH:mm"
+
+#: src/octoprint/static/js/app/helpers.js:410
+#: src/octoprint/static/js/app/helpers.js:415
+msgid "off"
+msgstr "断开"
+
+#: src/octoprint/static/js/app/main.js:112
+msgid "Offline"
+msgstr "脱机"
+
+#: src/octoprint/static/js/app/main.js:113
+msgid "Opening serial port"
+msgstr "打开串口"
+
+#: src/octoprint/static/js/app/main.js:114
+msgid "Detecting serial port"
+msgstr "检测串口"
+
+#: src/octoprint/static/js/app/main.js:115
+msgid "Detecting baudrate"
+msgstr "检测波特率"
+
+#: src/octoprint/static/js/app/main.js:116
+msgid "Connecting"
+msgstr "连接中"
+
+#: src/octoprint/static/js/app/main.js:117
+msgid "Operational"
+msgstr "操作的"
+
+#: src/octoprint/static/js/app/main.js:118
+msgid "Printing from SD"
+msgstr "从SD卡打印"
+
+#: src/octoprint/static/js/app/main.js:119
+msgid "Sending file to SD"
+msgstr "发送文件到 SD卡"
+
+#: src/octoprint/static/js/app/main.js:120
+msgid "Printing"
+msgstr "打印中"
+
+#: src/octoprint/static/js/app/main.js:121
+msgid "Paused"
+msgstr "已暂停"
+
+#: src/octoprint/static/js/app/main.js:122
+msgid "Closed"
+msgstr "已关闭"
+
+#: src/octoprint/static/js/app/main.js:123
+msgid "Transfering file to SD"
+msgstr "传送文件到SD卡"
+
+#: src/octoprint/static/js/app/viewmodels/appearance.js:11
+#: src/octoprint/static/js/app/viewmodels/appearance.js:13
+#: src/octoprint/static/js/app/viewmodels/appearance.js:18
+#: src/octoprint/static/js/app/viewmodels/appearance.js:20
+msgid "3DTALK"
+msgstr "3DTALK"
+
+#: src/octoprint/static/js/app/viewmodels/connection.js:42
+#: src/octoprint/templates/sidebar/connection.jinja2:13
+msgid "Connect"
+msgstr "连接"
+
+#: src/octoprint/static/js/app/viewmodels/connection.js:44
+msgid "Disconnect"
+msgstr "断开连接"
+
+#: src/octoprint/static/js/app/viewmodels/control.js:27
+#: src/octoprint/static/js/app/viewmodels/control.js:69
+#: src/octoprint/static/js/app/viewmodels/files.js:332
+#: src/octoprint/static/js/app/viewmodels/gcode.js:471
+#: src/octoprint/static/js/app/viewmodels/printerstate.js:190
+#: src/octoprint/static/js/app/viewmodels/temperature.js:65
+msgid "Tool"
+msgstr "工具"
+
+#: src/octoprint/static/js/app/viewmodels/control.js:75
+#: src/octoprint/static/js/app/viewmodels/temperature.js:76
+msgid "Hotend"
+msgstr "热床"
+
+#: src/octoprint/static/js/app/viewmodels/files.js:47
+msgid "Your available free disk space is critically low."
+msgstr "当前可用磁盘容量极低"
+
+#: src/octoprint/static/js/app/viewmodels/files.js:49
+msgid "Your available free disk space is starting to run low."
+msgstr "可用的磁盘空间已开始运行低"
+
+#: src/octoprint/static/js/app/viewmodels/files.js:51
+msgid "Your current disk usage."
+msgstr "当前的磁盘使用情况"
+
+#: src/octoprint/static/js/app/viewmodels/files.js:327
+#: src/octoprint/static/js/app/viewmodels/files.js:332
+msgid "Filament"
+msgstr "印丝"
+
+#: src/octoprint/static/js/app/viewmodels/files.js:336
+msgid "Estimated Print Time"
+msgstr "预计打印时间"
+
+#: src/octoprint/static/js/app/viewmodels/files.js:339
+msgid "Last Printed"
+msgstr "上次打印"
+
+#: src/octoprint/static/js/app/viewmodels/files.js:341
+msgid "Last Print Time"
+msgstr "上次打印时间"
+
+#: src/octoprint/static/js/app/viewmodels/files.js:520
+msgid ""
+"Could not upload the file. Make sure that it is a GCODE file and has the "
+"extension \".gcode\" or \".gco\" or that it is an STL file with the "
+"extension \".stl\"."
+msgstr ""
+"无法上传文件。确保它是一个GCODE文件，并具有扩展名“.gcode”或“.gco”或者说是具有"
+"扩展名“·STL”STL文件。"
+
+#: src/octoprint/static/js/app/viewmodels/files.js:541
+msgid "Uploading ..."
+msgstr "上传中..."
+
+#: src/octoprint/static/js/app/viewmodels/files.js:548
+msgid "Saving ..."
+msgstr "保存中..."
+
+#: src/octoprint/static/js/app/viewmodels/firstrun.js:38
+msgid ""
+"If you disable Access Control <strong>and</strong> your OctoPrint "
+"installation is accessible from the internet, your printer <strong>will be "
+"accessible by everyone - that also includes the bad guys!</strong>"
+msgstr ""
+"如果禁用访问控制<strong>和</strong>您OctoPrint安装从Internet访问，您的打印机"
+"<strong>将是每个人都可以访问- 也包括坏人</strong>"
+
+#: src/octoprint/static/js/app/viewmodels/gcode.js:17
+msgid "Loading..."
+msgstr "载入中..."
+
+#: src/octoprint/static/js/app/viewmodels/gcode.js:21
+msgid "Analyzing..."
+msgstr "分析中..."
+
+#: src/octoprint/static/js/app/viewmodels/gcode.js:25
+msgid "Analyzed"
+msgstr "分析完成"
+
+#: src/octoprint/static/js/app/viewmodels/gcode.js:437
+msgid "Model size"
+msgstr "模型尺寸"
+
+#: src/octoprint/static/js/app/viewmodels/gcode.js:438
+msgid "Estimated total print time"
+msgstr "预计总打印时间"
+
+#: src/octoprint/static/js/app/viewmodels/gcode.js:439
+msgid "Estimated layer height"
+msgstr "预计层高"
+
+#: src/octoprint/static/js/app/viewmodels/gcode.js:439
+msgid "mm"
+msgstr "毫米"
+
+#: src/octoprint/static/js/app/viewmodels/gcode.js:440
+msgid "Layer count"
+msgstr "层数"
+
+#: src/octoprint/static/js/app/viewmodels/gcode.js:440
+msgid "printed"
+msgstr "已打印"
+
+#: src/octoprint/static/js/app/viewmodels/gcode.js:440
+msgid "visited"
+msgstr "已访问"
+
+#: src/octoprint/static/js/app/viewmodels/gcode.js:463
+msgid "Layer number"
+msgstr "层编号"
+
+#: src/octoprint/static/js/app/viewmodels/gcode.js:464
+msgid "Layer height"
+msgstr "层高"
+
+#: src/octoprint/static/js/app/viewmodels/gcode.js:465
+msgid "GCODE commands in layer"
+msgstr "每层的GCOD命令"
+
+#: src/octoprint/static/js/app/viewmodels/gcode.js:468
+#: src/octoprint/static/js/app/viewmodels/gcode.js:471
+msgid "Filament used by layer"
+msgstr "每层使用的印丝"
+
+#: src/octoprint/static/js/app/viewmodels/gcode.js:475
+msgid "Print time for layer"
+msgstr "每层打印时间"
+
+#: src/octoprint/static/js/app/viewmodels/loginstate.js:22
+#: src/octoprint/templates/navbar/login.jinja2:2
+#: src/octoprint/templates/navbar/login.jinja2:13
+msgid "Login"
+msgstr "登录"
+
+#: src/octoprint/static/js/app/viewmodels/loginstate.js:87
+msgid "Login successful"
+msgstr "登录成功"
+
+#: src/octoprint/static/js/app/viewmodels/loginstate.js:87
+#, python-format
+msgid "You are now logged in as \"%(username)s\""
+msgstr "您现在登录为 \"%(username)s\""
+
+#: src/octoprint/static/js/app/viewmodels/loginstate.js:95
+msgid "Login failed"
+msgstr "登录失败"
+
+#: src/octoprint/static/js/app/viewmodels/loginstate.js:95
+msgid "User unknown or wrong password"
+msgstr "用户未知或密码错误"
+
+#: src/octoprint/static/js/app/viewmodels/loginstate.js:105
+msgid "Logout successful"
+msgstr "注销成功"
+
+#: src/octoprint/static/js/app/viewmodels/loginstate.js:105
+msgid "You are now logged out"
+msgstr "您已注销"
+
+#: src/octoprint/static/js/app/viewmodels/navigation.js:28
+#, python-format
+msgid "The command \"%(command)s\" executed successfully"
+msgstr "命令 \"%(command)s\"的成功执行"
+
+#: src/octoprint/static/js/app/viewmodels/navigation.js:32
+#, python-format
+msgid "The command \"%(command)s\" could not be executed."
+msgstr "命令 \"%(command)s\"不能被执行。"
+
+#: src/octoprint/static/js/app/viewmodels/navigation.js:34
+msgid "Error"
+msgstr "错误"
+
+#: src/octoprint/static/js/app/viewmodels/printerprofiles.js:98
+#: src/octoprint/static/js/app/viewmodels/settings.js:60
+#: src/octoprint/static/js/app/viewmodels/settings.js:90
+msgid "default"
+msgstr "默认"
+
+#: src/octoprint/static/js/app/viewmodels/printerprofiles.js:99
+#: src/octoprint/static/js/app/viewmodels/settings.js:61
+#: src/octoprint/static/js/app/viewmodels/settings.js:74
+msgid "red"
+msgstr "红"
+
+#: src/octoprint/static/js/app/viewmodels/printerprofiles.js:100
+#: src/octoprint/static/js/app/viewmodels/settings.js:62
+#: src/octoprint/static/js/app/viewmodels/settings.js:76
+msgid "orange"
+msgstr "橙"
+
+#: src/octoprint/static/js/app/viewmodels/printerprofiles.js:101
+#: src/octoprint/static/js/app/viewmodels/settings.js:63
+#: src/octoprint/static/js/app/viewmodels/settings.js:78
+msgid "yellow"
+msgstr "黄"
+
+#: src/octoprint/static/js/app/viewmodels/printerprofiles.js:102
+#: src/octoprint/static/js/app/viewmodels/settings.js:64
+#: src/octoprint/static/js/app/viewmodels/settings.js:80
+msgid "green"
+msgstr "绿"
+
+#: src/octoprint/static/js/app/viewmodels/printerprofiles.js:103
+#: src/octoprint/static/js/app/viewmodels/settings.js:65
+#: src/octoprint/static/js/app/viewmodels/settings.js:82
+msgid "blue"
+msgstr "蓝"
+
+#: src/octoprint/static/js/app/viewmodels/printerprofiles.js:104
+#: src/octoprint/static/js/app/viewmodels/settings.js:67
+#: src/octoprint/static/js/app/viewmodels/settings.js:86
+msgid "black"
+msgstr "黑"
+
+#: src/octoprint/static/js/app/viewmodels/printerprofiles.js:111
+msgid "Lower Left"
+msgstr "左下"
+
+#: src/octoprint/static/js/app/viewmodels/printerprofiles.js:112
+msgid "Center"
+msgstr "中心"
+
+#: src/octoprint/static/js/app/viewmodels/printerprofiles.js:174
+msgid "Identifier must be set"
+msgstr "标识必须设置"
+
+#: src/octoprint/static/js/app/viewmodels/printerprofiles.js:176
+msgid "Invalid characters, only a-z, A-Z, 0-9, -, ., _, ( and ) are allowed"
+msgstr "无效的字符,仅a-z, A-Z, 0-9, -, ., _, (  ) 可用"
+
+#: src/octoprint/static/js/app/viewmodels/printerprofiles.js:178
+msgid "A profile with such an identifier already exists"
+msgstr "有这样一个标识符的配置文件已存在"
+
+#: src/octoprint/static/js/app/viewmodels/printerprofiles.js:249
+msgid ""
+"There was unexpected error while saving the printer profile, please consult "
+"the logs."
+msgstr "保存打印机配置文件时出现意外错误，请查阅日志。"
+
+#: src/octoprint/static/js/app/viewmodels/printerprofiles.js:250
+#: src/octoprint/static/js/app/viewmodels/printerprofiles.js:268
+#: src/octoprint/static/js/app/viewmodels/printerprofiles.js:296
+msgid "Saving failed"
+msgstr "保存失败"
+
+#: src/octoprint/static/js/app/viewmodels/printerprofiles.js:267
+msgid ""
+"There was unexpected error while removing the printer profile, please "
+"consult the logs."
+msgstr "删除打印机配置文件时出现意外错误，请参阅日志。"
+
+#: src/octoprint/static/js/app/viewmodels/printerprofiles.js:295
+msgid ""
+"There was unexpected error while updating the printer profile, please "
+"consult the logs."
+msgstr "更新打印机配置文件时出现意外错误，请查阅日志。"
+
+#: src/octoprint/static/js/app/viewmodels/printerprofiles.js:352
+msgid "Add Printer Profile"
+msgstr "新增打印机设置"
+
+#: src/octoprint/static/js/app/viewmodels/printerprofiles.js:352
+#, python-format
+msgid "Edit Printer Profile \"%(name)s\""
+msgstr "编辑打印机设置 \"%(name)s\""
+
+#: src/octoprint/static/js/app/viewmodels/printerstate.js:54
+msgid "Restarts the print job from the beginning"
+msgstr "重新开始打印作业"
+
+#: src/octoprint/static/js/app/viewmodels/printerstate.js:55
+msgid "Starts the print job"
+msgstr "开始打印作业"
+
+#: src/octoprint/static/js/app/viewmodels/printerstate.js:56
+msgid "Resumes the print job"
+msgstr "恢复打印作业"
+
+#: src/octoprint/static/js/app/viewmodels/printerstate.js:57
+msgid "Pauses the print job"
+msgstr "暂停打印作业"
+
+#: src/octoprint/static/js/app/viewmodels/printerstate.js:90
+msgid "Calculating..."
+msgstr "计算中..."
+
+#: src/octoprint/static/js/app/viewmodels/printerstate.js:103
+msgid "Continue"
+msgstr "继续"
+
+#: src/octoprint/static/js/app/viewmodels/printerstate.js:105
+#: src/octoprint/templates/sidebar/state.jinja2:18
+msgid "Pause"
+msgstr "暂停"
+
+#: src/octoprint/static/js/app/viewmodels/printerstate.js:116
+#: src/octoprint/templates/tabs/timelapse.jinja2:11
+msgid "On Z Change"
+msgstr "Z变更"
+
+#: src/octoprint/static/js/app/viewmodels/printerstate.js:118
+#: src/octoprint/templates/tabs/timelapse.jinja2:10
+msgid "Timed"
+msgstr "定时"
+
+#: src/octoprint/static/js/app/viewmodels/printerstate.js:118
+#: src/octoprint/templates/tabs/timelapse.jinja2:25
+#: src/octoprint/templates/tabs/timelapse.jinja2:32
+msgid "sec"
+msgstr "秒"
+
+#: src/octoprint/static/js/app/viewmodels/printerstate.js:229
+msgid "This will restart the print job from the beginning."
+msgstr "这将重新开始打印作业。"
+
+#: src/octoprint/static/js/app/viewmodels/settings.js:66
+#: src/octoprint/static/js/app/viewmodels/settings.js:84
+msgid "violet"
+msgstr "紫"
+
+#: src/octoprint/static/js/app/viewmodels/settings.js:68
+#: src/octoprint/static/js/app/viewmodels/settings.js:88
+msgid "white"
+msgstr "白"
+
+#: src/octoprint/static/js/app/viewmodels/settings.js:96
+msgid "Autodetect from browser"
+msgstr "从浏览器自动检测"
+
+#: src/octoprint/static/js/app/viewmodels/settings.js:427
+#: src/octoprint/static/js/app/viewmodels/usersettings.js:131
+msgid "Searching..."
+msgstr "搜索中..."
+
+#: src/octoprint/static/js/app/viewmodels/slicing.js:31
+msgid "Do nothing"
+msgstr "不处理"
+
+#: src/octoprint/static/js/app/viewmodels/slicing.js:32
+msgid "Select for printing"
+msgstr "选择打印"
+
+#: src/octoprint/static/js/app/viewmodels/slicing.js:33
+msgid "Start printing"
+msgstr "开始打印"
+
+#: src/octoprint/static/js/app/viewmodels/slicing.js:45
+#, python-format
+msgid "Slicing %(filename)s"
+msgstr "正在切片 %(filename)s"
+
+#: src/octoprint/static/js/app/viewmodels/temperature.js:23
+#: src/octoprint/static/js/app/viewmodels/temperature.js:83
+#: src/octoprint/templates/dialogs/settings/temperatures.jinja2:16
+msgid "Bed"
+msgstr "印床"
+
+#: src/octoprint/static/js/app/viewmodels/temperature.js:29
+#: src/octoprint/static/js/app/viewmodels/temperature.js:91
+#: src/octoprint/templates/dialogs/settings/temperatures.jinja2:17
+msgid "Chamber"
+msgstr "加热仓"
+
+#: src/octoprint/static/js/app/viewmodels/temperature.js:134
+msgid "just now"
+msgstr "现在"
+
+#: src/octoprint/static/js/app/viewmodels/temperature.js:136
+msgid "min"
+msgstr "分"
+
+#: src/octoprint/static/js/app/viewmodels/temperature.js:293
+#: src/octoprint/templates/tabs/temperature.jinja2:11
+msgid "Actual"
+msgstr "实际"
+
+#: src/octoprint/static/js/app/viewmodels/temperature.js:298
+#: src/octoprint/templates/tabs/temperature.jinja2:12
+msgid "Target"
+msgstr "目标"
+
+#: src/octoprint/static/js/app/viewmodels/terminal.js:104
+#, python-format
+msgid ""
+"showing %(displayed)d lines (%(filtered)d of %(total)d total lines filtered, "
+"buffer full)"
+msgstr "显示%(displayed)d 线 (%(filtered)d of %(total)d 线被过滤，缓存区满)"
+
+#: src/octoprint/static/js/app/viewmodels/terminal.js:106
+#, python-format
+msgid ""
+"showing %(displayed)d lines (%(filtered)d of %(total)d total lines filtered)"
+msgstr "显示%(displayed)d 线 (%(filtered)d of %(total)d 线被过滤)"
+
+#: src/octoprint/static/js/app/viewmodels/terminal.js:110
+#, python-format
+msgid "showing %(displayed)d lines (buffer full)"
+msgstr "显示 %(displayed)d 线 (缓存区满)"
+
+#: src/octoprint/static/js/app/viewmodels/terminal.js:112
+#, python-format
+msgid "showing %(displayed)d lines"
+msgstr "显示 %(displayed)d 线"
+
+#: src/octoprint/static/js/app/viewmodels/timelapse.js:255
+msgid "Capturing timelapse postroll"
+msgstr "捕捉间隔拍摄"
+
+#: src/octoprint/static/js/app/viewmodels/timelapse.js:259
+msgid "Now capturing timelapse post roll, this will take only a moment..."
+msgstr "捕捉间隔拍摄，请稍等..."
+
+#: src/octoprint/static/js/app/viewmodels/timelapse.js:266
+#, python-format
+msgid "%(minutes)d min"
+msgstr "%(minutes)d 分"
+
+#: src/octoprint/static/js/app/viewmodels/timelapse.js:267
+#, python-format
+msgid ""
+"Now capturing timelapse post roll, this will take approximately %(duration)s "
+"(so until %(time)s)..."
+msgstr ""
+
+#: src/octoprint/static/js/app/viewmodels/timelapse.js:269
+#, python-format
+msgid "%(seconds)d sec"
+msgstr "%(seconds)d 秒"
+
+#: src/octoprint/static/js/app/viewmodels/timelapse.js:270
+#, python-format
+msgid ""
+"Now capturing timelapse post roll, this will take approximately "
+"%(duration)s..."
+msgstr ""
+
+#: src/octoprint/static/js/app/viewmodels/timelapse.js:283
+msgid "Rendering timelapse"
+msgstr "绘制延时"
+
+#: src/octoprint/static/js/app/viewmodels/timelapse.js:284
+#, python-format
+msgid ""
+"Now rendering timelapse %(movie_prefix)s. Due to performance reasons it is "
+"not recommended to start a print job while a movie is still rendering."
+msgstr ""
+
+#: src/octoprint/static/js/app/viewmodels/timelapse.js:290
+#, python-format
+msgid ""
+"Rendering of timelapse %(movie_prefix)s failed with return code "
+"%(returncode)s"
+msgstr ""
+
+#: src/octoprint/static/js/app/viewmodels/timelapse.js:294
+msgid "Rendering failed"
+msgstr "调整失败"
+
+#: src/octoprint/static/js/app/viewmodels/timelapse.js:303
+msgid "Timelapse ready"
+msgstr ""
+
+#: src/octoprint/static/js/app/viewmodels/timelapse.js:304
+#, python-format
+msgid "New timelapse %(movie_prefix)s is done rendering."
+msgstr ""
+
+#: src/octoprint/static/js/app/viewmodels/usersettings.js:10
+msgid "Site default"
+msgstr "网站默认"
+
+#: src/octoprint/templates/index.jinja2:115
+msgid "Version"
+msgstr "版本"
+
+#: src/octoprint/templates/index.jinja2:119
+msgid "Sourcecode"
+msgstr "源代码"
+
+#: src/octoprint/templates/index.jinja2:120
+msgid "Documentation"
+msgstr "文件"
+
+#: src/octoprint/templates/index.jinja2:121
+msgid "Bugs and Requests"
+msgstr "错误和要求"
+
+#: src/octoprint/templates/index.jinja2:122
+msgid "About"
+msgstr "关于"
+
+#: src/octoprint/templates/dialogs/about.jinja2:4
+#: src/octoprint/templates/dialogs/settings.jinja2:51
+msgid "About OctoPrint"
+msgstr "关于OctoPrint"
+
+#: src/octoprint/templates/dialogs/confirmation.jinja2:4
+msgid "Are you sure?"
+msgstr "你确定？"
+
+#: src/octoprint/templates/dialogs/firstrun.jinja2:3
+msgid "Configure Access Control"
+msgstr "配置访问控制"
+
+#: src/octoprint/templates/dialogs/firstrun.jinja2:6
+msgid ""
+"<p>\n"
+"            <strong>Please read the following, it is very important for your "
+"printer's health!</strong>\n"
+"        </p>\n"
+"            <p>\n"
+"                OctoPrint by default now ships with Access Control enabled, "
+"meaning you won't be able to do anything with the\n"
+"                printer unless you login first as a configured user. This is "
+"to <strong>prevent strangers - possibly with\n"
+"                malicious intent - to gain access to your printer</strong> "
+"via the internet or another untrustworthy network\n"
+"                and using it in such a way that it is damaged or worse (i.e. "
+"causes a fire).\n"
+"            </p>\n"
+"            <p>\n"
+"                It looks like you haven't configured access control yet. "
+"Please <strong>set up an username and password</strong> for the\n"
+"                initial administrator account who will have full access to "
+"both the printer and OctoPrint's settings, then click\n"
+"                on \"Keep Access Control Enabled\":\n"
+"            </p>"
+msgstr ""
+"<p>\n"
+"            <strong>请阅读以下内容，这对您的打印机健康非常重要</strong>\n"
+"        </p>\n"
+"            <p>\n"
+"                现在OctoPrint默认启用了访问控制， 这意味着对您的打印机不能做"
+"任何事情，\n"
+"                除非你先登录配置用户，这可以 <strong>阻止陌生人 - 可能的\n"
+"                恶意- 进入你的打印机</strong> 通过互联网或其他不可靠的网络\n"
+"                使用打印机造成损坏或更糟 (例如引起火灾).\n"
+"            </p>\n"
+"            <p>\n"
+"                看起来你还没有配置访问控制， 请<strong>建立一个用户名和密码</"
+"strong> 的\n"
+"                初始的管理员账号，此账号可以完全访问打印机和OctoPrint的配"
+"置， 然后点击\n"
+"                 \"继续启用访问控制\":\n"
+"            </p>"
+
+#: src/octoprint/templates/dialogs/firstrun.jinja2:22
+#: src/octoprint/templates/dialogs/settings/accesscontrol.jinja2:45
+#: src/octoprint/templates/navbar/login.jinja2:6
+#: src/octoprint/templates/navbar/login.jinja2:7
+msgid "Username"
+msgstr "用户名"
+
+#: src/octoprint/templates/dialogs/firstrun.jinja2:28
+#: src/octoprint/templates/dialogs/settings/accesscontrol.jinja2:51
+#: src/octoprint/templates/dialogs/settings/network.jinja2:29
+#: src/octoprint/templates/dialogs/settings/network.jinja2:56
+#: src/octoprint/templates/dialogs/usersettings/access.jinja2:3
+#: src/octoprint/templates/navbar/login.jinja2:8
+#: src/octoprint/templates/navbar/login.jinja2:9
+msgid "Password"
+msgstr "密码"
+
+#: src/octoprint/templates/dialogs/firstrun.jinja2:34
+msgid "Confirm Password"
+msgstr "确认密码"
+
+#: src/octoprint/templates/dialogs/firstrun.jinja2:37
+#: src/octoprint/templates/dialogs/settings/accesscontrol.jinja2:60
+#: src/octoprint/templates/dialogs/settings/accesscontrol.jinja2:131
+#: src/octoprint/templates/dialogs/usersettings/access.jinja2:17
+msgid "Passwords do not match"
+msgstr "密码错误"
+
+#: src/octoprint/templates/dialogs/firstrun.jinja2:41
+msgid ""
+"<p>\n"
+"            <strong>Note:</strong> In case that your OctoPrint installation "
+"is only accessible from within a trustworthy network and you don't\n"
+"            need Access Control for other reasons, you may alternatively "
+"disable Access Control. You should only\n"
+"            do this if you are absolutely certain that only people you know "
+"and trust will be able to connect to it.\n"
+"        </p>\n"
+"            <p>\n"
+"                <strong>Do NOT underestimate the risk of an unsecured access "
+"from the internet to your printer!</strong>\n"
+"            </p>"
+msgstr ""
+
+#: src/octoprint/templates/dialogs/firstrun.jinja2:51
+msgid "Disable Access Control"
+msgstr "禁用访问控制"
+
+#: src/octoprint/templates/dialogs/firstrun.jinja2:52
+msgid "Keep Access Control Enabled"
+msgstr "使能访问控制"
+
+#: src/octoprint/templates/dialogs/settings.jinja2:4
+msgid "OctoPrint Settings"
+msgstr "OctoPrint设置"
+
+#: src/octoprint/templates/dialogs/slicing.jinja2:8
+msgid ""
+"Slicing is currently disabled since no slicer has been configured yet. "
+"Please configure a slicer under \"Settings\"."
+msgstr ""
+"请设定使用的切片软体及设置及选择下列GCode 档案, 如不现在执行切片, 请按\"取消"
+"\" 键。"
+
+#: src/octoprint/templates/dialogs/slicing.jinja2:11
+msgid ""
+"Please configure which slicer and which slicing profile to use and name the "
+"GCode file to slice to below, or click \"Cancel\" if you do not wish to "
+"slice the file now."
+msgstr ""
+"请配置哪些切片机切片哪个配置文件使用并命名G代码文件切片下方，或点击“取消”，如"
+"果你不希望现在切片文件。"
+
+#: src/octoprint/templates/dialogs/slicing.jinja2:14
+msgid "Slicer"
+msgstr "切片器"
+
+#: src/octoprint/templates/dialogs/slicing.jinja2:16
+msgid "Select a slicer..."
+msgstr "选择切片器"
+
+#: src/octoprint/templates/dialogs/slicing.jinja2:20
+msgid "Slicing Profile"
+msgstr "切片设置"
+
+#: src/octoprint/templates/dialogs/slicing.jinja2:22
+msgid "Select a slicing profile..."
+msgstr "选择切片设置..."
+
+#: src/octoprint/templates/dialogs/slicing.jinja2:26
+#: src/octoprint/templates/sidebar/connection.jinja2:5
+msgid "Printer Profile"
+msgstr "打印机设置"
+
+#: src/octoprint/templates/dialogs/slicing.jinja2:28
+msgid "Select a printer profile..."
+msgstr "选择打印机设置"
+
+#: src/octoprint/templates/dialogs/slicing.jinja2:32
+msgid "GCode Filename"
+msgstr "GCode文件名"
+
+#: src/octoprint/templates/dialogs/slicing.jinja2:41
+msgid "After slicing..."
+msgstr "切片后 ..."
+
+#: src/octoprint/templates/dialogs/slicing.jinja2:51
+#: src/octoprint/templates/sidebar/files.jinja2:28
+msgid "Slice"
+msgstr "切片"
+
+#: src/octoprint/templates/dialogs/usersettings.jinja2:4
+#: src/octoprint/templates/navbar/login.jinja2:16
+msgid "User Settings"
+msgstr "用户设置"
+
+#: src/octoprint/templates/dialogs/about/about.jinja2:3
+msgid "The snappy web interface for your 3D printer"
+msgstr "这是您的3D打印机短小精悍的界面"
+
+#: src/octoprint/templates/dialogs/settings/accesscontrol.jinja2:5
+#: src/octoprint/templates/dialogs/settings/accesscontrol.jinja2:66
+#: src/octoprint/templates/dialogs/settings/accesscontrol.jinja2:95
+msgid "Active"
+msgstr "生效"
+
+#: src/octoprint/templates/dialogs/settings/accesscontrol.jinja2:6
+#: src/octoprint/templates/dialogs/settings/accesscontrol.jinja2:73
+#: src/octoprint/templates/dialogs/settings/accesscontrol.jinja2:102
+msgid "Admin"
+msgstr "管理员"
+
+#: src/octoprint/templates/dialogs/settings/accesscontrol.jinja2:7
+#: src/octoprint/templates/dialogs/settings/logs.jinja2:15
+#: src/octoprint/templates/dialogs/settings/printerprofiles.jinja2:7
+#: src/octoprint/templates/tabs/timelapse.jinja2:57
+#: src/octoprint/templates/tabs/timelapse.jinja2:89
+msgid "Action"
+msgstr "动作"
+
+#: src/octoprint/templates/dialogs/settings/accesscontrol.jinja2:12
+#: src/octoprint/templates/dialogs/settings/api.jinja2:17
+#: src/octoprint/templates/dialogs/usersettings/access.jinja2:22
+msgid "API Key"
+msgstr "API密钥"
+
+#: src/octoprint/templates/dialogs/settings/accesscontrol.jinja2:16
+msgid "Update User"
+msgstr "更新用户"
+
+#: src/octoprint/templates/dialogs/settings/accesscontrol.jinja2:16
+msgid "Change password"
+msgstr "更换密码"
+
+#: src/octoprint/templates/dialogs/settings/accesscontrol.jinja2:16
+msgid "Delete user"
+msgstr "删除用户"
+
+#: src/octoprint/templates/dialogs/settings/accesscontrol.jinja2:33
+#: src/octoprint/templates/dialogs/settings/accesscontrol.jinja2:40
+msgid "Add user"
+msgstr "添加用户"
+
+#: src/octoprint/templates/dialogs/settings/accesscontrol.jinja2:57
+#: src/octoprint/templates/dialogs/settings/accesscontrol.jinja2:128
+#: src/octoprint/templates/dialogs/usersettings/access.jinja2:14
+msgid "Repeat Password"
+msgstr "重新输入密码"
+
+#: src/octoprint/templates/dialogs/settings/accesscontrol.jinja2:88
+#, python-format
+msgid "Edit user \"%(user)s\""
+msgstr "编辑用户 \"%(user)s\""
+
+#: src/octoprint/templates/dialogs/settings/accesscontrol.jinja2:117
+#, python-format
+msgid "Change password for user \"%(user)s\""
+msgstr "更改用的密码 \"%(user)s\""
+
+#: src/octoprint/templates/dialogs/settings/accesscontrol.jinja2:122
+#: src/octoprint/templates/dialogs/usersettings/access.jinja2:8
+msgid "New Password"
+msgstr "新密码"
+
+#: src/octoprint/templates/dialogs/settings/accesscontrol.jinja2:137
+#: src/octoprint/templates/dialogs/usersettings/access.jinja2:24
+msgid "Current API Key"
+msgstr "当前API密钥"
+
+#: src/octoprint/templates/dialogs/settings/accesscontrol.jinja2:140
+#: src/octoprint/templates/dialogs/usersettings/access.jinja2:27
+msgid "N/A"
+msgstr "不适用"
+
+#: src/octoprint/templates/dialogs/settings/api.jinja2:5
+msgid "Enable"
+msgstr "使能"
+
+#: src/octoprint/templates/dialogs/settings/api.jinja2:12
+#, python-format
+msgid "Allow <a href=\"%(url)s\">Cross Origin Resource Sharing (CORS)</a>"
+msgstr "允许<a href=\"%(url)s\">跨域资源共享 (CORS)</a>"
+
+#: src/octoprint/templates/dialogs/settings/api.jinja2:23
+#: src/octoprint/templates/dialogs/usersettings/access.jinja2:35
+msgid "QR Code"
+msgstr "QR Code"
+
+#: src/octoprint/templates/dialogs/settings/appearance.jinja2:2
+msgid ""
+"Name of this OctoPrint instance, will be shown in the navigation bar and "
+"broadcast on the network"
+msgstr "这OctoPrint实例的名称，将显示在导航栏中和广播在网络上"
+
+#: src/octoprint/templates/dialogs/settings/appearance.jinja2:3
+msgid "Title"
+msgstr "标题"
+
+#: src/octoprint/templates/dialogs/settings/appearance.jinja2:8
+msgid ""
+"Personalize the color of the navigation bar - maybe to match your printer?"
+msgstr "个性化的导航栏的颜色 - 也许可以搭配您的打印机？"
+
+#: src/octoprint/templates/dialogs/settings/appearance.jinja2:9
+#: src/octoprint/templates/dialogs/settings/printerprofiles.jinja2:64
+msgid "Color"
+msgstr "颜色"
+
+#: src/octoprint/templates/dialogs/settings/appearance.jinja2:15
+msgid "For acrylic printers ;)"
+msgstr "用于亚克力打印机 ;)"
+
+#: src/octoprint/templates/dialogs/settings/appearance.jinja2:18
+msgid "Transparent Color"
+msgstr "透明色"
+
+#: src/octoprint/templates/dialogs/settings/appearance.jinja2:23
+msgid "Language Packs"
+msgstr "语言包"
+
+#: src/octoprint/templates/dialogs/settings/appearance.jinja2:25
+msgid "Manage..."
+msgstr "管理..."
+
+#: src/octoprint/templates/dialogs/settings/appearance.jinja2:29
+msgid "Default Language"
+msgstr "默认语言"
+
+#: src/octoprint/templates/dialogs/settings/appearance.jinja2:36
+msgid ""
+"Changes to the default interface language will only become active after a "
+"reload of the page and only be active if not overridden by the users "
+"language settings."
+msgstr ""
+"默认的界面语言的变化只会重新加载页面后变得活跃，只有活跃的如果不被用户的语言"
+"设置"
+
+#: src/octoprint/templates/dialogs/settings/appearance.jinja2:44
+msgid "Manage Language Packs..."
+msgstr "管理语言包…"
+
+#: src/octoprint/templates/dialogs/settings/appearance.jinja2:47
+msgid "Available Language Packs"
+msgstr "可用语言包"
+
+#: src/octoprint/templates/dialogs/settings/appearance.jinja2:58
+msgid "Last update:"
+msgstr "最后更新："
+
+#: src/octoprint/templates/dialogs/settings/appearance.jinja2:61
+msgid "Delete"
+msgstr "删除"
+
+#: src/octoprint/templates/dialogs/settings/appearance.jinja2:72
+msgid "No additional Language Packs are installed at the moment."
+msgstr "无需额外的语言包安装的时刻。"
+
+#: src/octoprint/templates/dialogs/settings/appearance.jinja2:77
+msgid "Upload additional Language Packs"
+msgstr "上传其他语言包"
+
+#: src/octoprint/templates/dialogs/settings/appearance.jinja2:88
+#: src/octoprint/templates/overlays/dragndrop.jinja2:10
+#: src/octoprint/templates/sidebar/files.jinja2:44
+#: src/octoprint/templates/sidebar/files.jinja2:55
+msgid "Upload"
+msgstr "上传"
+
+#: src/octoprint/templates/dialogs/settings/appearance.jinja2:90
+msgid ""
+"This does not look like a valid language pack. Valid language packs should "
+"be either zip files or tarballs and have the extension \".zip\", \".tar.gz"
+"\", \".tgz\" or \".tar\""
+msgstr ""
+"这看起来并不像一个有效的语言包。有效的语言包应该是zip文件或压缩包，并具有扩展"
+"名“.ZIP”的“.tar.gz”，“.tgz的”或“的.tar”"
+
+#: src/octoprint/templates/dialogs/settings/appearance.jinja2:93
+msgid ""
+"Please note that you will have to reload the page in order for any newly "
+"added language packs to become available."
+msgstr "请注意，你将不得不重新载入页面，以便任何新添加的语言包变得可用。"
+
+#: src/octoprint/templates/dialogs/settings/features.jinja2:5
+msgid "Enable Temperature Graph"
+msgstr "启用温度图"
+
+#: src/octoprint/templates/dialogs/settings/features.jinja2:12
+msgid "Enable GCode Visualizer"
+msgstr "启用GCODE可视化工具"
+
+#: src/octoprint/templates/dialogs/settings/features.jinja2:19
+msgid "Enable SD support"
+msgstr "启用SD的支持"
+
+#: src/octoprint/templates/dialogs/settings/features.jinja2:26
+msgid "Enable Keyboard Control"
+msgstr "启用键盘控制"
+
+#: src/octoprint/templates/dialogs/settings/features.jinja2:33
+msgid "Wait for <code>start</code> on connect"
+msgstr "等待<code>开始</code>的连接上"
+
+#: src/octoprint/templates/dialogs/settings/features.jinja2:40
+msgid "Always assume SD card is present"
+msgstr "总是假设SD卡存在"
+
+#: src/octoprint/templates/dialogs/settings/features.jinja2:40
+#: src/octoprint/templates/dialogs/settings/features.jinja2:47
+#: src/octoprint/templates/dialogs/settings/features.jinja2:54
+#: src/octoprint/templates/dialogs/settings/features.jinja2:61
+#: src/octoprint/templates/dialogs/settings/features.jinja2:68
+msgid "Repetier"
+msgstr "Repetier"
+
+#: src/octoprint/templates/dialogs/settings/features.jinja2:47
+msgid "Send a checksum with <strong>every</strong> command"
+msgstr "发送校验和<strong>每</strong>命令"
+
+#: src/octoprint/templates/dialogs/settings/features.jinja2:54
+msgid "Ignore consecutive resend requests for the same line"
+msgstr "忽略那些在同一行连续传送的请求"
+
+#: src/octoprint/templates/dialogs/settings/features.jinja2:61
+#, python-format
+msgid ""
+"Support <code>TargetExtr%%n</code>/<code>TargetBed</code>/"
+"<code>TargetChamber</code> target temperature format"
+msgstr ""
+"支持<code>TargetExtr%%n</code>/<code>TargetBed</code>/<code>TargetChamber</"
+"code> 目标温度格式"
+
+#: src/octoprint/templates/dialogs/settings/features.jinja2:68
+msgid "Disable detection of external heatups"
+msgstr "禁用外部heatups检测"
+
+#: src/octoprint/templates/dialogs/settings/folders.jinja2:5
+msgid "Upload Folder"
+msgstr "上传文件夹"
+
+#: src/octoprint/templates/dialogs/settings/folders.jinja2:11
+msgid "Timelapse Folder"
+msgstr "缩时影片文件夹"
+
+#: src/octoprint/templates/dialogs/settings/folders.jinja2:17
+msgid "Timelapse Temp Folder"
+msgstr "缩时影片临时文件夹"
+
+#: src/octoprint/templates/dialogs/settings/folders.jinja2:23
+msgid "Logs Folder"
+msgstr "日志文件夹"
+
+#: src/octoprint/templates/dialogs/settings/folders.jinja2:29
+msgid "Watched Folder"
+msgstr "监视文件夹"
+
+#: src/octoprint/templates/dialogs/settings/folders.jinja2:37
+msgid ""
+"Actively poll the watched folder. Check this if files in your watched folder "
+"aren't automatically added otherwise."
+msgstr ""
+
+#: src/octoprint/templates/dialogs/settings/folders.jinja2:42
+msgid "Disk space thresholds"
+msgstr "磁盘空间阀值"
+
+#: src/octoprint/templates/dialogs/settings/folders.jinja2:44
+msgid ""
+"If the free disk space falls below these thresholds, OctoPrint will warn the "
+"user."
+msgstr "如果可用存储空间低于以下阈值，OctoPrint会向使用者发出警告"
+
+#: src/octoprint/templates/dialogs/settings/folders.jinja2:47
+#: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:69
+#: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:90
+#: src/octoprint/templates/tabs/gcodeviewer.jinja2:66
+#: src/octoprint/templates/tabs/timelapse.jinja2:13
+msgid "Warning"
+msgstr "警告"
+
+#: src/octoprint/templates/dialogs/settings/folders.jinja2:53
+msgid "Critical"
+msgstr "临界"
+
+#: src/octoprint/templates/dialogs/settings/folders.jinja2:59
+msgid ""
+"Provide values including size unit. Allowed units are: b, byte, bytes, kb, "
+"mb, gb, tb (case insensitive). Example: <code>5MB</code>, <code>500KB</code>"
+msgstr ""
+"允许的单位包含 : b, byte, bytes, kb, mb, gb, tb (不用区分大小写). Example: "
+"<code>5MB</code>, <code>500KB</code>"
+
+#: src/octoprint/templates/dialogs/settings/gcodescripts.jinja2:3
+msgid "Before print job starts"
+msgstr "打印作业开始之前"
+
+#: src/octoprint/templates/dialogs/settings/gcodescripts.jinja2:9
+msgid "After print job completes"
+msgstr "打印作业完成后"
+
+#: src/octoprint/templates/dialogs/settings/gcodescripts.jinja2:15
+msgid "After print job is cancelled"
+msgstr "打印作业取消后"
+
+#: src/octoprint/templates/dialogs/settings/gcodescripts.jinja2:21
+msgid "After print job is paused"
+msgstr "打印作业暂停后"
+
+#: src/octoprint/templates/dialogs/settings/gcodescripts.jinja2:27
+msgid "Before print job is resumed"
+msgstr "打印作业恢复前"
+
+#: src/octoprint/templates/dialogs/settings/gcodescripts.jinja2:33
+msgid "After connection to printer is established"
+msgstr "与打印机连接建立后"
+
+#: src/octoprint/templates/dialogs/settings/logs.jinja2:6
+msgid "Modification date"
+msgstr "修改日期"
+
+#: src/octoprint/templates/dialogs/settings/logs.jinja2:6
+#: src/octoprint/templates/dialogs/settings/logs.jinja2:13
+#: src/octoprint/templates/sidebar/files.jinja2:10
+#: src/octoprint/templates/sidebar/files.jinja2:24
+#: src/octoprint/templates/tabs/timelapse.jinja2:50
+#: src/octoprint/templates/tabs/timelapse.jinja2:56
+#: src/octoprint/templates/tabs/timelapse.jinja2:88
+msgid "Size"
+msgstr "大小"
+
+#: src/octoprint/templates/dialogs/settings/logs.jinja2:14
+msgid "Date"
+msgstr "日期"
+
+#: src/octoprint/templates/dialogs/settings/network.jinja2:4
+#: src/octoprint/templates/dialogs/settings/network.jinja2:17
+#: src/octoprint/templates/dialogs/usersettings/interface.jinja2:19
+msgid "Connect WiFi hotspot"
+msgstr "连接WiFi热点"
+
+#: src/octoprint/templates/dialogs/settings/network.jinja2:9
+#: src/octoprint/templates/dialogs/settings/network.jinja2:45
+#: src/octoprint/templates/dialogs/usersettings/interface.jinja2:24
+msgid "Create WiFi hotspot"
+msgstr "创建WiFi热点"
+
+#: src/octoprint/templates/dialogs/settings/network.jinja2:22
+#: src/octoprint/templates/dialogs/settings/network.jinja2:50
+msgid "WiFiName"
+msgstr "WiFi名称"
+
+#: src/octoprint/templates/dialogs/settings/printerprofiles.jinja2:6
+#: src/octoprint/templates/dialogs/settings/printerprofiles.jinja2:58
+msgid "Model"
+msgstr "型号"
+
+#: src/octoprint/templates/dialogs/settings/printerprofiles.jinja2:15
+msgid "Set as default profile"
+msgstr "设置为默认设置"
+
+#: src/octoprint/templates/dialogs/settings/printerprofiles.jinja2:15
+msgid "Edit Profile"
+msgstr "编辑设置"
+
+#: src/octoprint/templates/dialogs/settings/printerprofiles.jinja2:34
+msgid "Add Profile..."
+msgstr "新增设置..."
+
+#: src/octoprint/templates/dialogs/settings/printerprofiles.jinja2:47
+msgid "Name must be set"
+msgstr "名称必须设置"
+
+#: src/octoprint/templates/dialogs/settings/printerprofiles.jinja2:71
+msgid "Form Factor"
+msgstr "平台类型"
+
+#: src/octoprint/templates/dialogs/settings/printerprofiles.jinja2:73
+msgid "Rectangular"
+msgstr "矩形"
+
+#: src/octoprint/templates/dialogs/settings/printerprofiles.jinja2:76
+msgid "Circular"
+msgstr "圆形"
+
+#: src/octoprint/templates/dialogs/settings/printerprofiles.jinja2:81
+msgid "Origin"
+msgstr "起点"
+
+#: src/octoprint/templates/dialogs/settings/printerprofiles.jinja2:89
+msgid "Volume"
+msgstr "行程"
+
+#: src/octoprint/templates/dialogs/settings/printerprofiles.jinja2:91
+#: src/octoprint/templates/dialogs/settings/printerprofiles.jinja2:127
+msgid "X"
+msgstr "X"
+
+#: src/octoprint/templates/dialogs/settings/printerprofiles.jinja2:98
+#: src/octoprint/templates/dialogs/settings/printerprofiles.jinja2:137
+msgid "Y"
+msgstr "Y"
+
+#: src/octoprint/templates/dialogs/settings/printerprofiles.jinja2:105
+#: src/octoprint/templates/dialogs/settings/printerprofiles.jinja2:147
+msgid "Z"
+msgstr "Z"
+
+#: src/octoprint/templates/dialogs/settings/printerprofiles.jinja2:113
+msgid "Heated Bed"
+msgstr "加热床"
+
+#: src/octoprint/templates/dialogs/settings/printerprofiles.jinja2:119
+msgid "Heated Chamber"
+msgstr "加热仓"
+
+#: src/octoprint/templates/dialogs/settings/printerprofiles.jinja2:125
+msgid "Axis"
+msgstr "轴"
+
+#: src/octoprint/templates/dialogs/settings/printerprofiles.jinja2:133
+#: src/octoprint/templates/dialogs/settings/printerprofiles.jinja2:143
+#: src/octoprint/templates/dialogs/settings/printerprofiles.jinja2:153
+msgid "Invert control"
+msgstr "反转控制"
+
+#: src/octoprint/templates/dialogs/settings/printerprofiles.jinja2:157
+msgid "E"
+msgstr "E"
+
+#: src/octoprint/templates/dialogs/settings/printerprofiles.jinja2:165
+msgid "Nozzle Diameter"
+msgstr "挤出头直径"
+
+#: src/octoprint/templates/dialogs/settings/printerprofiles.jinja2:174
+msgid "Number of Extruders"
+msgstr "挤出机数目"
+
+#: src/octoprint/templates/dialogs/settings/printerprofiles.jinja2:180
+msgid "Nozzle Offsets (relative to first nozzle T0)"
+msgstr "喷头偏移量（相对于第一个喷头T0）"
+
+#: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:2
+msgid ""
+"Serial port to connect to, setting this to AUTO will make OctoPrint try to "
+"automatically find the right setting"
+msgstr "打印机串口波特率。若设置为自动，OctoPrint 将尝试自动找到正确的设置。"
+
+#: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:3
+#: src/octoprint/templates/sidebar/connection.jinja2:1
+msgid "Serial Port"
+msgstr "串行端口"
+
+#: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:8
+msgid ""
+"Serial baud rate to connect with, setting this to AUTO will make OctoPrint "
+"try to automatically find the right setting"
+msgstr "串口波特率连接，设置为自动将octoprint尝试自动找到正确的设置"
+
+#: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:9
+#: src/octoprint/templates/sidebar/connection.jinja2:3
+msgid "Baudrate"
+msgstr "波特率"
+
+#: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:14
+msgid ""
+"Makes OctoPrint try to connect to the printer automatically during start up"
+msgstr "让octoprint尝试自动连接到打印机"
+
+#: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:17
+msgid "Auto-connect to printer on server start"
+msgstr "服务器启动时，自动连接到打印机"
+
+#: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:21
+msgid ""
+"Interval in which to poll for the temperature information from the printer "
+"while printing"
+msgstr "在打印时对打印机温度信息进行轮询的时间间隔"
+
+#: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:22
+msgid "Temperature interval"
+msgstr "温度范围"
+
+#: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:30
+msgid ""
+"Interval in which to poll for the SD printing status information from the "
+"printer while printing"
+msgstr "从打印机到打印状态信息的时间间隔"
+
+#: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:31
+msgid "SD status interval"
+msgstr "SD卡间隔状态"
+
+#: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:39
+msgid ""
+"Time after which the communication with your printer will be considered "
+"timed out if nothing was sent by your printer (and an attempt to get it "
+"talking again will be done). Increase this if your printer takes longer than "
+"this for some moves. This is also the interval in which the temperature will "
+"be polled from the printer while not printing."
+msgstr ""
+"有条指令向打印机发送，过了一段时间都沒有動作，該條與列印機的通訊將被認為是通"
+"訊超時(並會企圖再一次將通訊連接)。如果您的列印機某些移動比此值更久，增加此"
+"值。當列印機沒在列印時，這也在那個溫度被調看的間隔。"
+
+#: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:40
+msgid "Communication timeout"
+msgstr "通讯超时"
+
+#: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:48
+msgid ""
+"Time after which a connection attempt to the printer will be considered as "
+"having failed"
+msgstr "将一个连接过了尝试的时间之后，将被视为失败"
+
+#: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:49
+msgid "Connection timeout"
+msgstr "连接超时"
+
+#: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:57
+msgid ""
+"Time after which to consider an auto detection attempt to have failed if no "
+"successful connection is detected"
+msgstr "将一个连接过了尝试的时间之后，将被视为失败"
+
+#: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:58
+msgid "Autodetection timeout"
+msgstr "自动检测超时"
+
+#: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:69
+msgid "Log communication to serial.log (might negatively impact performance)"
+msgstr "日志通信serial.log（可能会对性能产生负面影响）"
+
+#: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:74
+msgid "Additional serial ports"
+msgstr "附加的串口"
+
+#: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:77
+#, python-format
+msgid ""
+"Use this to define additional <a href=\"%%(glob_url)s\">glob patterns</a> "
+"matching serial ports to list for connecting against, e.g. <code>/dev/"
+"ttyAMA*</code>. One entry per line."
+msgstr ""
+
+#: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:83
+msgid ""
+"Not only cancel ongoing prints but also disconnect on unhandled errors from "
+"the firmware."
+msgstr "不仅取消正在进行打印，也断开从固件未处理的错误。"
+
+#: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:90
+msgid ""
+"Ignore any unhandled errors from the firmware. Only use this if your "
+"firmware sends stuff prefixed with \"Error\" that is not an actual error. "
+"Might mask printer issues, be careful!"
+msgstr "忽略任何来自固件在未处理的错误。"
+
+#: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:98
+msgid "Command to send to the firmware on first handshake attempt."
+msgstr "当第一次握手时，命令发送到固件。"
+
+#: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:99
+msgid "\"Hello\" command"
+msgstr "“你好”命令"
+
+#: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:102
+msgid ""
+"Use this to specify a different command than the default <code>M110</code> "
+"to send to the printer on initial connection to trigger a communication "
+"handshake."
+msgstr ""
+"用它来指定一个不同于默认的命令<code>M110</code>当初始连接触发通信握手时发送到"
+"打印机。"
+
+#: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:105
+msgid ""
+"Commands that are know to run long and hence should suppress communication "
+"timeouts from being triggered."
+msgstr "命令需要长时间运行，因此应该抑制通信超时被触发。"
+
+#: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:106
+msgid "Long running commands"
+msgstr "长时间运行命令"
+
+#: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:109
+msgid ""
+"Use this to specify the commands known to take a long time to complete "
+"without output from your printer and hence might cause timeout issues. Just "
+"the G or M code, comma separated."
+msgstr ""
+"使用这个指定的命令需要很长时间才能完成导致打印机没有输出，因此可能会导致超时"
+"问题。只能在G或M代码，以逗号分隔。"
+
+#: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:112
+msgid ""
+"Commands that always require a line number and checksum to be sent with them."
+msgstr "命令总是需要行号和校验和来发送。"
+
+#: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:113
+msgid "Commands that always require a checksum"
+msgstr "命令总是需要校验和"
+
+#: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:116
+msgid ""
+"Use this to specify which commands <strong>always</strong> need to be sent "
+"with a checksum. Comma separated list."
+msgstr ""
+"用于指定<strong>总是</strong> 需要在发送时被校验的命令，以英文半角逗号为分"
+"隔。"
+
+#: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:121
+msgid "Generate additional <code>ok</code> for <code>M29</code>"
+msgstr "为 <code>M29</code> 生成额外的 <code>ok</code> 提示 "
+
+#: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:121
+msgid "Most Marlin < v1.1.0"
+msgstr "大多数 Marlin 版本 < v1.1.0"
+
+#: src/octoprint/templates/dialogs/settings/serialconnection.jinja2:126
+msgid "Simulate an additional `ok` for resend requests"
+msgstr "模拟一个额外的`OK`来重新发送请求"
+
+#: src/octoprint/templates/dialogs/settings/server.jinja2:2
+msgid "Commands"
+msgstr "命令"
+
+#: src/octoprint/templates/dialogs/settings/server.jinja2:4
+msgid "Command to restart the OctoPrint server"
+msgstr "重启OctoPrint服务命令"
+
+#: src/octoprint/templates/dialogs/settings/server.jinja2:5
+msgid "Restart OctoPrint"
+msgstr "重启 octoprint"
+
+#: src/octoprint/templates/dialogs/settings/server.jinja2:10
+msgid "Command to restart the system OctoPrint is running on"
+msgstr "重启正在运行的OctoPrint命令"
+
+#: src/octoprint/templates/dialogs/settings/server.jinja2:11
+msgid "Restart system"
+msgstr "重启系统"
+
+#: src/octoprint/templates/dialogs/settings/server.jinja2:16
+msgid "Command to shut down the system OctoPrint is running on"
+msgstr "关闭正在运行的 OctoPrint命令"
+
+#: src/octoprint/templates/dialogs/settings/server.jinja2:17
+msgid "Shutdown system"
+msgstr "关闭系统"
+
+#: src/octoprint/templates/dialogs/settings/temperatures.jinja2:2
+msgid "Temperature Graph"
+msgstr "温度图"
+
+#: src/octoprint/templates/dialogs/settings/temperatures.jinja2:4
+msgid "Graph cutoff"
+msgstr "截至图形"
+
+#: src/octoprint/templates/dialogs/settings/temperatures.jinja2:10
+msgid "Needs a restart of OctoPrint to become active."
+msgstr "需要重新启动octoprint才能激活"
+
+#: src/octoprint/templates/dialogs/settings/temperatures.jinja2:13
+msgid "Temperature Presets"
+msgstr "温度预设"
+
+#: src/octoprint/templates/dialogs/settings/temperatures.jinja2:15
+msgid "Extruder"
+msgstr "挤出机"
+
+#: src/octoprint/templates/dialogs/settings/terminalfilters.jinja2:4
+msgid "RegExp"
+msgstr "正则表达式"
+
+#: src/octoprint/templates/dialogs/settings/webcam.jinja2:2
+msgid "URL to embed into the UI for live viewing of the webcam stream"
+msgstr "Webcam 监控 URL （用于 OctoPrint UI 实时预览功能）"
+
+#: src/octoprint/templates/dialogs/settings/webcam.jinja2:3
+msgid "Stream URL"
+msgstr "影片流地址"
+
+#: src/octoprint/templates/dialogs/settings/webcam.jinja2:8
+msgid "URL to use for retrieving webcam snapshot images for timelapse creation"
+msgstr "使用URL获取 Webcam 的快照图像"
+
+#: src/octoprint/templates/dialogs/settings/webcam.jinja2:9
+msgid "Snapshot URL"
+msgstr "影片快照地址"
+
+#: src/octoprint/templates/dialogs/settings/webcam.jinja2:14
+msgid "Full path to the FFMPEG binary"
+msgstr "对FFmpeg二进制全路径"
+
+#: src/octoprint/templates/dialogs/settings/webcam.jinja2:15
+msgid "Path to FFMPEG"
+msgstr "FFMPEG路径"
+
+#: src/octoprint/templates/dialogs/settings/webcam.jinja2:20
+msgid "Bitrate to use for encoding the timelapse video"
+msgstr "比特率（用于视频编码）"
+
+#: src/octoprint/templates/dialogs/settings/webcam.jinja2:21
+msgid "Timelapse bitrate"
+msgstr "缩时影片速率"
+
+#: src/octoprint/templates/dialogs/settings/webcam.jinja2:26
+msgid "Number of FFMPEG encoding threads"
+msgstr "FFMPEG 编码线程数"
+
+#: src/octoprint/templates/dialogs/settings/webcam.jinja2:27
+msgid "FFMPEG threads"
+msgstr "ffmpeg的线程"
+
+#: src/octoprint/templates/dialogs/settings/webcam.jinja2:35
+msgid "Enable OctoPrint watermark in timelapse movies"
+msgstr "缩时影片加入水印"
+
+#: src/octoprint/templates/dialogs/settings/webcam.jinja2:42
+msgid "Flip webcam horizontally"
+msgstr "水平翻转摄像头"
+
+#: src/octoprint/templates/dialogs/settings/webcam.jinja2:47
+msgid "Flip webcam vertically"
+msgstr "垂直翻转摄像头"
+
+#: src/octoprint/templates/dialogs/settings/webcam.jinja2:52
+msgid "Rotate webcam 90 degrees counter clockwise"
+msgstr "旋转摄像头90度逆时针"
+
+#: src/octoprint/templates/dialogs/usersettings/access.jinja2:5
+msgid ""
+"If you do not wish to change your password, just leave the following fields "
+"empty."
+msgstr "如果您不希望更改您的密码，请将下列字段为空。"
+
+#: src/octoprint/templates/dialogs/usersettings/interface.jinja2:3
+msgid "Language"
+msgstr "语言"
+
+#: src/octoprint/templates/dialogs/usersettings/interface.jinja2:11
+msgid ""
+"Changes to the interface language will only become active after a reload of "
+"the page."
+msgstr ""
+"默认的界面语言的变化只会重新加载页面后变得活跃，只有活跃的如果不被用户的语言"
+"设置"
+
+#: src/octoprint/templates/navbar/login.jinja2:11
+msgid "Remember me"
+msgstr "记住"
+
+#: src/octoprint/templates/navbar/login.jinja2:17
+msgid "Logout"
+msgstr "注销"
+
+#: src/octoprint/templates/navbar/settings.jinja2:2
+msgid "Settings"
+msgstr "设置"
+
+#: src/octoprint/templates/navbar/systemmenu.jinja2:2
+msgid "System"
+msgstr "系统"
+
+#: src/octoprint/templates/overlays/dragndrop.jinja2:5
+msgid "Upload locally"
+msgstr "上传到本地"
+
+#: src/octoprint/templates/overlays/dragndrop.jinja2:7
+#: src/octoprint/templates/sidebar/files.jinja2:49
+msgid "Upload to SD"
+msgstr "上传到SD卡"
+
+#: src/octoprint/templates/overlays/dragndrop.jinja2:7
+msgid "SD not initialized"
+msgstr "SD卡未初始化"
+
+#: src/octoprint/templates/overlays/offline.jinja2:9
+msgid "Attempt to reconnect"
+msgstr "尝试重新连接"
+
+#: src/octoprint/templates/overlays/reloadui.jinja2:6
+msgid "Please reload"
+msgstr "请重新加载"
+
+#: src/octoprint/templates/overlays/reloadui.jinja2:7
+msgid ""
+"There is a new version of the server active now, a reload of the user "
+"interface is needed. This will not interrupt any print jobs you might have "
+"ongoing. Please reload the web interface now by clicking the button below."
+msgstr ""
+"现在有一个新的服务器版本，需要用户界面的重新加载。这不会中断任何你可能正在进"
+"行的打印工作。请点击下面的按钮来重新加载网络界面。"
+
+#: src/octoprint/templates/sidebar/connection.jinja2:8
+msgid "Save connection settings"
+msgstr "保存连接设置"
+
+#: src/octoprint/templates/sidebar/connection.jinja2:11
+msgid "Auto-connect on server startup"
+msgstr "在服务器连接时自动连接"
+
+#: src/octoprint/templates/sidebar/files.jinja2:9
+#: src/octoprint/templates/sidebar/files.jinja2:23
+msgid "Uploaded"
+msgstr "上传"
+
+#: src/octoprint/templates/sidebar/files.jinja2:13
+msgid "Additional data"
+msgstr "附加数据"
+
+#: src/octoprint/templates/sidebar/files.jinja2:14
+#: src/octoprint/templates/sidebar/files.jinja2:26
+msgid "Download"
+msgstr "下载"
+
+#: src/octoprint/templates/sidebar/files.jinja2:15
+#: src/octoprint/templates/sidebar/files.jinja2:27
+msgid "Remove"
+msgstr "移除"
+
+#: src/octoprint/templates/sidebar/files.jinja2:16
+msgid "Load"
+msgstr "载入"
+
+#: src/octoprint/templates/sidebar/files.jinja2:17
+msgid "Load and Print"
+msgstr "载入并打印"
+
+#: src/octoprint/templates/sidebar/files.jinja2:37
+msgid "Free"
+msgstr "空间"
+
+#: src/octoprint/templates/sidebar/files.jinja2:37
+msgid "Total"
+msgstr "总数"
+
+#: src/octoprint/templates/sidebar/files.jinja2:64
+msgid "Hint: You can also drag and drop files on this page to upload them."
+msgstr "提示：您也可以拖放此页面上的文件上传"
+
+#: src/octoprint/templates/sidebar/files_header.jinja2:2
+msgid "File list settings"
+msgstr "文件列表设置"
+
+#: src/octoprint/templates/sidebar/files_header.jinja2:6
+msgid "Sort by name"
+msgstr "按名称排序"
+
+#: src/octoprint/templates/sidebar/files_header.jinja2:7
+msgid "Sort by upload date"
+msgstr "按上传日期排序"
+
+#: src/octoprint/templates/sidebar/files_header.jinja2:8
+msgid "Sort by file size"
+msgstr "按文件大小排序"
+
+#: src/octoprint/templates/sidebar/files_header.jinja2:10
+msgid "Only show GCode files"
+msgstr "只显示GCode文件"
+
+#: src/octoprint/templates/sidebar/files_header.jinja2:11
+msgid "Only show STL files"
+msgstr "只显示STL文件"
+
+#: src/octoprint/templates/sidebar/files_header.jinja2:13
+msgid "Only show files stored locally"
+msgstr "仅显示本机文件"
+
+#: src/octoprint/templates/sidebar/files_header.jinja2:14
+msgid "Only show files stored on usb"
+msgstr "仅显示U盘文件"
+
+#: src/octoprint/templates/sidebar/files_header.jinja2:16
+msgid "Only show files stored on SD"
+msgstr "仅显示SD卡文件"
+
+#: src/octoprint/templates/sidebar/files_header.jinja2:19
+msgid "Hide successfully printed files"
+msgstr "隐藏成功打印文件"
+
+#: src/octoprint/templates/sidebar/files_header.jinja2:24
+msgid "Refresh file list"
+msgstr "刷新存储库列表"
+
+#: src/octoprint/templates/sidebar/files_header.jinja2:31
+msgid "SD Card operations"
+msgstr "SD卡操作"
+
+#: src/octoprint/templates/sidebar/files_header.jinja2:35
+msgid "Initialize SD card"
+msgstr "初始化SD卡"
+
+#: src/octoprint/templates/sidebar/files_header.jinja2:36
+msgid "Refresh SD files"
+msgstr "刷新SD卡文件"
+
+#: src/octoprint/templates/sidebar/files_header.jinja2:37
+msgid "Release SD card"
+msgstr "退出SD卡"
+
+#: src/octoprint/templates/sidebar/state.jinja2:1
+msgid "Machine State"
+msgstr "机器状态"
+
+#: src/octoprint/templates/sidebar/state.jinja2:2
+msgid "File"
+msgstr "文件"
+
+#: src/octoprint/templates/sidebar/state.jinja2:7
+msgid "Approx. Total Print Time"
+msgstr "总打印时间"
+
+#: src/octoprint/templates/sidebar/state.jinja2:8
+msgid "Print Time"
+msgstr "打印时间"
+
+#: src/octoprint/templates/sidebar/state.jinja2:9
+msgid "Print Time Left"
+msgstr "打印剩余时间"
+
+#: src/octoprint/templates/sidebar/state.jinja2:10
+msgid "Printed"
+msgstr "已打印"
+
+#: src/octoprint/templates/sidebar/state.jinja2:17
+msgid "Restart"
+msgstr "重新开始"
+
+#: src/octoprint/templates/sidebar/state.jinja2:17
+msgid "Print"
+msgstr "打印"
+
+#: src/octoprint/templates/sidebar/state.jinja2:18
+msgid "Resume"
+msgstr "恢复"
+
+#: src/octoprint/templates/sidebar/state.jinja2:19
+msgid "Cancels the print job"
+msgstr "取消打印作业"
+
+#: src/octoprint/templates/sidebar/state.jinja2:22
+msgid "Auto Power Off"
+msgstr "自动关机"
+
+#: src/octoprint/templates/tabs/control.jinja2:7
+msgid "Keyboard controls active"
+msgstr "键盘控制活动"
+
+#: src/octoprint/templates/tabs/control.jinja2:10
+msgid "X Axis"
+msgstr "X轴"
+
+#: src/octoprint/templates/tabs/control.jinja2:11
+msgid "Y Axis"
+msgstr "Y轴"
+
+#: src/octoprint/templates/tabs/control.jinja2:12
+msgid "Page&uarr;"
+msgstr "Page&uarr;"
+
+#: src/octoprint/templates/tabs/control.jinja2:12
+msgid "Page&darr;"
+msgstr "Page&darr;"
+
+#: src/octoprint/templates/tabs/control.jinja2:12
+msgid "Z Axis"
+msgstr "Z轴"
+
+#: src/octoprint/templates/tabs/control.jinja2:15
+msgid "Home X/Y"
+msgstr "归零X/Y"
+
+#: src/octoprint/templates/tabs/control.jinja2:16
+msgid "Home Z"
+msgstr "归零Z"
+
+#: src/octoprint/templates/tabs/control.jinja2:17
+msgid "Stepsize"
+msgstr "步长"
+
+#: src/octoprint/templates/tabs/control.jinja2:23
+msgid ""
+"Hint: If you move your mouse over the picture, you enter keyboard control "
+"mode."
+msgstr "提示：如果你将鼠标移到图片上，你输入键盘控制模式。"
+
+#: src/octoprint/templates/tabs/control.jinja2:68
+msgid "Feed rate:"
+msgstr "打印速度："
+
+#: src/octoprint/templates/tabs/control.jinja2:76
+msgid "Select Tool..."
+msgstr "选择挤出头"
+
+#: src/octoprint/templates/tabs/control.jinja2:87
+msgid "Extrude"
+msgstr "进料"
+
+#: src/octoprint/templates/tabs/control.jinja2:88
+msgid "Retract"
+msgstr "退料"
+
+#: src/octoprint/templates/tabs/control.jinja2:92
+msgid "Flow rate:"
+msgstr "流速："
+
+#: src/octoprint/templates/tabs/control.jinja2:99
+msgid "Motors off"
+msgstr "电机关闭"
+
+#: src/octoprint/templates/tabs/control.jinja2:100
+msgid "Fan on"
+msgstr "风扇打开"
+
+#: src/octoprint/templates/tabs/control.jinja2:101
+msgid "Fan off"
+msgstr "风扇关闭"
+
+#: src/octoprint/templates/tabs/control.jinja2:102
+msgid "Water on"
+msgstr "水冷打开"
+
+#: src/octoprint/templates/tabs/control.jinja2:103
+msgid "Water off"
+msgstr "水冷关闭"
+
+#: src/octoprint/templates/tabs/gcodeviewer.jinja2:14
+msgid "Model info"
+msgstr "模型信息"
+
+#: src/octoprint/templates/tabs/gcodeviewer.jinja2:21
+msgid "Renderer options"
+msgstr "渲染选项"
+
+#: src/octoprint/templates/tabs/gcodeviewer.jinja2:25
+msgid "Sync with job progress"
+msgstr "任务同步的进度"
+
+#: src/octoprint/templates/tabs/gcodeviewer.jinja2:30
+msgid "Center viewport on model"
+msgstr "模型中心点"
+
+#: src/octoprint/templates/tabs/gcodeviewer.jinja2:33
+msgid "Zoom in on model"
+msgstr "模型放大"
+
+#: src/octoprint/templates/tabs/gcodeviewer.jinja2:39
+msgid "Show moves"
+msgstr "移动显示"
+
+#: src/octoprint/templates/tabs/gcodeviewer.jinja2:42
+msgid "Show retracts"
+msgstr "退料显示"
+
+#: src/octoprint/templates/tabs/gcodeviewer.jinja2:48
+msgid "Also show previous layer"
+msgstr "同时显示上一层"
+
+#: src/octoprint/templates/tabs/gcodeviewer.jinja2:51
+msgid "Also show next layer"
+msgstr "同时显示下一层"
+
+#: src/octoprint/templates/tabs/gcodeviewer.jinja2:56
+msgid "Reload"
+msgstr "重新加载"
+
+#: src/octoprint/templates/tabs/gcodeviewer.jinja2:62
+msgid ""
+"Note that the time estimates in this tab are calculated by the GCODE viewer "
+"in your browser and might differ from the values calculated by the server "
+"that are displayed in the \"State\" and \"Files\" panels in the sidebar due "
+"to slightly different implementations."
+msgstr ""
+
+#: src/octoprint/templates/tabs/gcodeviewer.jinja2:67
+msgid ""
+"<p>\n"
+"        You've selected <strong data-bind=\"text: selectedFile.name\"></"
+"strong> for printing which has a size of\n"
+"        <strong data-bind=\"text: formatSize(selectedFile.size())\"></"
+"strong>. Depending on your machine this\n"
+"        might be too large for rendering and cause your browser to become "
+"unresponsive or crash.\n"
+"    </p>\n"
+"\n"
+"    <p>\n"
+"        Are you sure you want to visualize this file nevertheless?\n"
+"    </p>"
+msgstr ""
+"<p>\n"
+"  您已选择 <strong data-bind=\"text: selectedFile.name\"></strong> 打印文件大"
+"小具有\n"
+" <strong data-bind=\"text: formatSize(selectedFile.size())\"></strong>。根据"
+"您的机器，这可能会渲染超载，从而造成您的浏览器无响应或者崩溃。\n"
+"    </p>\n"
+"\n"
+"   <p>\n"
+"        您确定无论如何要形体化这个文件?\n"
+"    </p>"
+
+#: src/octoprint/templates/tabs/gcodeviewer.jinja2:78
+#, python-format
+msgid "Yes, please visualize %(name)s regardless of its size"
+msgstr "是的，无论 %(name)s的大小都要形体化"
+
+#: src/octoprint/templates/tabs/temperature.jinja2:13
+msgid "Offset"
+msgstr "补偿"
+
+#: src/octoprint/templates/tabs/temperature.jinja2:30
+#: src/octoprint/templates/tabs/temperature.jinja2:52
+msgid "Set"
+msgstr "设定"
+
+#: src/octoprint/templates/tabs/temperature.jinja2:42
+#: src/octoprint/templates/tabs/timelapse.jinja2:9
+msgid "Off"
+msgstr "停止"
+
+#: src/octoprint/templates/tabs/terminal.jinja2:4
+msgid "Autoscroll"
+msgstr "自动滚屏"
+
+#: src/octoprint/templates/tabs/terminal.jinja2:5
+msgid "Scroll to end"
+msgstr "滚动到结束"
+
+#: src/octoprint/templates/tabs/terminal.jinja2:5
+msgid "Select all"
+msgstr "选择所有"
+
+#: src/octoprint/templates/tabs/terminal.jinja2:6
+msgid ""
+"For performance reasons only a limited amount of terminal functionality is "
+"enabled right now."
+msgstr "出于性能考虑，目前只开放部分终端功能。"
+
+#: src/octoprint/templates/tabs/terminal.jinja2:20
+msgid "Send"
+msgstr "发送"
+
+#: src/octoprint/templates/tabs/terminal.jinja2:22
+msgid "Hint: Use the arrow up/down keys to recall commands sent previously"
+msgstr "提示：使用箭头向上/向下键调出以前发送的命令"
+
+#: src/octoprint/templates/tabs/terminal.jinja2:30
+msgid "Fake Acknowledgement"
+msgstr "假应答信号"
+
+#: src/octoprint/templates/tabs/terminal.jinja2:31
+msgid ""
+"If acknowledgements (\"ok\"s) sent by the firmware get lost due to issues "
+"with the serial communication to your printer, OctoPrint's communication "
+"with it can become stuck. If that happens, this can help. Please be advised "
+"that such occurences hint at general communication issues with your printer "
+"which will probably negatively influence your printing results and which you "
+"should therefore try to resolve!"
+msgstr ""
+
+#: src/octoprint/templates/tabs/terminal.jinja2:34
+msgid "Force fancy functionality"
+msgstr "强制花哨的功能"
+
+#: src/octoprint/templates/tabs/terminal.jinja2:35
+msgid "Force terminal output during printing"
+msgstr "强制中断在打印时输出"
+
+#: src/octoprint/templates/tabs/terminal.jinja2:36
+msgid ""
+"Some functionality of the terminal will be disabled if OctoPrint detects "
+"that your browser is too slow for that. You may force it back on here, but "
+"be aware that this might make your browser unresponsive."
+msgstr ""
+"如果OctoPrint检测到您的浏览器对它来说太慢，一些终端上的功能将会被取消。你可以"
+"在这里强制功能复原，但请注意，这样做可能让你的浏览器没回应。"
+
+#: src/octoprint/templates/tabs/timelapse.jinja2:3
+msgid ""
+"Take note that timelapse configuration is disabled while your printer is "
+"printing."
+msgstr "需注意，当您的打印机打印的所有插件管理功能被禁用。"
+
+#: src/octoprint/templates/tabs/timelapse.jinja2:5
+msgid "Timelapse Configuration"
+msgstr "缩时影片配置"
+
+#: src/octoprint/templates/tabs/timelapse.jinja2:7
+msgid "Timelapse Mode"
+msgstr "缩时影片模式"
+
+#: src/octoprint/templates/tabs/timelapse.jinja2:13
+msgid ""
+"Do not use with spiralized (\"Joris\") vases or similar continuous Z models."
+msgstr ""
+
+#: src/octoprint/templates/tabs/timelapse.jinja2:14
+msgid "Note"
+msgstr "备注"
+
+#: src/octoprint/templates/tabs/timelapse.jinja2:14
+msgid ""
+"Does not work when printing from the printer's SD Card (no way to detect the "
+"change in Z reliably). Use \"Timed\" mode for those prints instead."
+msgstr ""
+
+#: src/octoprint/templates/tabs/timelapse.jinja2:16
+msgid "Timelapse frame rate (in frames per second)"
+msgstr "画面播放速率（帧每秒）"
+
+#: src/octoprint/templates/tabs/timelapse.jinja2:19
+msgid "fps"
+msgstr "帧"
+
+#: src/octoprint/templates/tabs/timelapse.jinja2:22
+msgid "Timelapse post roll (in rendered seconds)"
+msgstr ""
+
+#: src/octoprint/templates/tabs/timelapse.jinja2:29
+msgid "Interval"
+msgstr "间距"
+
+#: src/octoprint/templates/tabs/timelapse.jinja2:38
+msgid "Save as default"
+msgstr "保存为默认值"
+
+#: src/octoprint/templates/tabs/timelapse.jinja2:43
+msgid "Save config"
+msgstr "保存配置"
+
+#: src/octoprint/templates/tabs/timelapse.jinja2:47
+msgid "Finished Timelapses"
+msgstr "已完成的录像"
+
+#: src/octoprint/templates/tabs/timelapse.jinja2:50
+msgid "Creation date"
+msgstr "创建日期"
+
+#: src/octoprint/templates/tabs/timelapse.jinja2:81
+msgid "Unrendered Timelapses"
+msgstr "未渲染的缩时影片"
+
+#: src/octoprint/templates/tabs/timelapse.jinja2:87
+msgid "Frames"
+msgstr "帧"
+
+#: src/octoprint/templates/tabs/timelapse.jinja2:99
+msgid "Delete unrendered timelapse"
+msgstr "删除未渲染的缩时影片"
+
+#: src/octoprint/templates/tabs/timelapse.jinja2:99
+msgid "Render timelapse"
+msgstr "缩时影片"
+
+#~ msgid "Connect WiFi"
+#~ msgstr "连接WiFi"
+
+#~ msgid "Create WiFi"
+#~ msgstr "创建WiFi"
+
+#~ msgid ""
+#~ "Support <code>TargetExtr%%n</code>/<code>TargetBed</code> target "
+#~ "temperature format"
+#~ msgstr "支持<code>TargetExtr%%n</code>/<code>TargetBed</code>的目标温度格式"

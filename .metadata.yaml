@@ -1,0 +1,9 @@
+M3EEPROM_Knight_V1.0-20181102 .gcode:
+  analysis:
+    filament:
+      tool0:
+        length: 0.0
+        volume: 0.0
+  hash: 9d1769823e02a9ff7c5bab54a355ead8b39949a8
+  links: []
+  notes: []
